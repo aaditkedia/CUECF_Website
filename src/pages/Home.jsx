@@ -4,13 +4,13 @@ import AnimatedCounter from '../components/AnimatedCounter'
 import './Home.css'
 
 const partners = [
-  { name: 'Whitehall Township', logo: '/images/logo-whitehall-township.png' },
-  { name: 'Lehigh Gap Nature Center', logo: '/images/logo-lehigh-gap-nature-center.png' },
-  { name: 'Lehigh Valley Audubon Society', logo: '/images/logo-lehigh-valley-audubon.png' },
-  { name: 'Wildlands Conservancy', logo: '/images/logo-wildlands-conservancy.png' },
-  { name: 'Lehigh County Conservation District', logo: '/images/logo-lehigh-county-conservation.png' },
-  { name: 'Hindu Heritage', logo: '/images/logo-hindu-heritage.png' },
-  { name: 'Parkland High School', logo: '/images/ParklandHighSchool.png' },
+  { name: 'Whitehall Township', logo: '/CUECF_Website/images/logo-whitehall-township.png' },
+  { name: 'Lehigh Gap Nature Center', logo: '/CUECF_Website/images/logo-lehigh-gap-nature-center.png' },
+  { name: 'Lehigh Valley Audubon Society', logo: '/CUECF_Website/images/logo-lehigh-valley-audubon.png' },
+  { name: 'Wildlands Conservancy', logo: '/CUECF_Website/images/logo-wildlands-conservancy.png' },
+  { name: 'Lehigh County Conservation District', logo: '/CUECF_Website/images/logo-lehigh-county-conservation.png' },
+  { name: 'Hindu Heritage', logo: '/CUECF_Website/images/logo-hindu-heritage.png' },
+  { name: 'Parkland High School', logo: '/CUECF_Website/images/ParklandHighSchool.png' },
 ]
 
 const stats = [
@@ -33,7 +33,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero" id="hero-section">
         <div className="hero-bg">
-          <img src="/images/events/Barn_Cleanup_Images/Group_photo.jpg" alt="CUECF Volunteers" className="hero-bg-img" />
+          <img src="/CUECF_Website/images/events/Barn_Cleanup_Images/Group_photo.jpg" alt="CUECF Volunteers" className="hero-bg-img" />
           <div className="hero-overlay"></div>
         </div>
         <div className="hero-content container">
@@ -77,7 +77,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="mission-image reveal">
-              <img src="/images/events/LCCD_Tree_Planting_Project/IMG_8168.jpg" alt="Nature conservation" />
+              <img src="/CUECF_Website/images/events/LCCD_Tree_Planting_Project/IMG_8168.jpg" alt="Nature conservation" />
               <div className="mission-image-accent"></div>
             </div>
           </div>
@@ -123,7 +123,7 @@ export default function Home() {
           <div className="projects-grid">
             <Link to="/projects/completed" className="project-card" id="project-card-completed">
               <div className="project-card-image">
-                <img src="/images/events/First_project_BirdHousetrimming/mainimage.jpg" alt="Whitehall Birdhouse Cleanup" />
+                <img src="/CUECF_Website/images/events/First_project_BirdHousetrimming/mainimage.jpg" alt="Whitehall Birdhouse Cleanup" />
               </div>
               <div className="project-card-body">
                 <span className="project-status completed">✓ Completed</span>
@@ -133,7 +133,7 @@ export default function Home() {
             </Link>
             <Link to="/projects/ongoing" className="project-card" id="project-card-ongoing">
               <div className="project-card-image">
-                <img src="/images/ParklandHighSchool.png" alt="Parkland HS Native Plant Garden" />
+                <img src="/CUECF_Website/images/ParklandHighSchool.png" alt="Parkland HS Native Plant Garden" />
               </div>
               <div className="project-card-body">
                 <span className="project-status ongoing">Ongoing</span>
@@ -154,7 +154,7 @@ export default function Home() {
               <p>Join our community of volunteers and help build a sustainable future for everyone — humans, plants, and animals alike.</p>
               <Link to="/contact" className="btn btn-primary" id="cta-join">Join Us Today →</Link>
             </div>
-            <img src="/images/logo-cuecf.png" alt="CUECF Logo" className="cta-mascot" />
+            <img src="/CUECF_Website/images/logo-cuecf.png" alt="CUECF Logo" className="cta-mascot" />
           </div>
         </div>
       </section>

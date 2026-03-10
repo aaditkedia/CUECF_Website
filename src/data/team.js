@@ -3,84 +3,84 @@ export const teamMembers = [
     id: 'aadit-kedia',
     name: 'Aadit Kedia',
     role: 'Co-Founder & Chairman',
-    image: '/images/photo-team-presentation.png',
+    image: '/CUECF_Website/images/photo-team-presentation.png',
     excerpt: 'Passionate about environmental conservation and community building.'
   },
   {
     id: 'adam-vazquies',
     name: 'Adam Vazquies',
     role: 'Co-Founder & Event Coordinator',
-    image: '/images/adam-vazquies-headshot.png',
+    image: '/CUECF_Website/images/adam-vazquies-headshot.png',
     excerpt: 'Coordinating events and partnerships to drive conservation impact.'
   },
   {
     id: 'anthony-wang',
     name: 'Anthony Wang',
     role: 'Vice President & Treasurer',
-    image: '/images/photo-volunteer-planting.png',
+    image: '/CUECF_Website/images/photo-volunteer-planting.png',
     excerpt: 'Committed to organizational growth and financial stewardship.'
   },
   {
     id: 'aneesh-kashalkar',
     name: 'Aneesh Kashalkar',
     role: 'Secretary',
-    image: '/images/photo-group-in-garden.png',
+    image: '/CUECF_Website/images/photo-group-in-garden.png',
     excerpt: 'Ensuring smooth operations and clear communication across the team.'
   },
   {
     id: 'shreemay-shah',
     name: 'Shreemay Shah',
     role: 'Board Member',
-    image: '/images/photo-field-nature.png',
+    image: '/CUECF_Website/images/photo-field-nature.png',
     excerpt: 'Contributing strategic insight and passion for environmental causes.'
   },
   {
     id: 'sushal-boddeda',
     name: 'Sushal Boddeda',
     role: 'Social Media Manager',
-    image: '/images/photo-erecycling-event.png',
+    image: '/CUECF_Website/images/photo-erecycling-event.png',
     excerpt: 'Amplifying our mission through digital outreach and storytelling.'
   },
   {
     id: 'jason-paz-romero',
     name: 'Jason Paz-Romero',
     role: 'Relations Director',
-    image: '/images/photo-vegetation-clearing.png',
+    image: '/CUECF_Website/images/photo-vegetation-clearing.png',
     excerpt: 'Building and maintaining partnerships with community organizations.'
   },
   {
     id: 'sriram-joshi',
     name: 'Sriram Joshi',
     role: 'Director of Technology',
-    image: '/images/photo-erecycling-truck.png',
+    image: '/CUECF_Website/images/photo-erecycling-truck.png',
     excerpt: 'Leveraging technology to enhance our conservation impact.'
   },
   {
     id: 'hanchun-yang',
     name: 'Hanchun Yang',
     role: 'Board Member',
-    image: '/images/photo-volunteers-group-cleanup.png',
+    image: '/CUECF_Website/images/photo-volunteers-group-cleanup.png',
     excerpt: 'Bringing dedication and fresh perspectives to the board.'
   },
   {
     id: 'vikram-alturu',
     name: 'Vikram Alturu',
     role: 'Board Member',
-    image: '/images/photo-field-nature.png',
+    image: '/CUECF_Website/images/photo-field-nature.png',
     excerpt: 'Supporting conservation initiatives with strategic planning.'
   },
   {
     id: 'haadi-matin',
     name: 'Haadi Matin',
     role: 'Board Member',
-    image: '/images/photo-group-in-garden.png',
+    image: '/CUECF_Website/images/photo-group-in-garden.png',
     excerpt: 'Advocating for environmental stewardship in the community.'
   },
   {
     id: 'guhan-sureshkumar',
     name: 'Guhan Sureshkumar',
     role: 'Board Member',
-    image: '/images/photo-volunteer-planting.png',
+    image: '/CUECF_Website/images/photo-volunteer-planting.png',
     excerpt: 'Committed to expanding our conservation reach and impact.'
   }
 ]

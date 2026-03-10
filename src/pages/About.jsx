@@ -20,7 +20,7 @@ export default function About() {
         <div className="container">
           <div className="about-content reveal">
             <div className="about-image-col">
-              <img src="/images/photo-group-in-garden.png" alt="Volunteers in garden" className="about-hero-img" />
+              <img src="/CUECF_Website/images/photo-group-in-garden.png" alt="Volunteers in garden" className="about-hero-img" />
               <div className="about-image-badge">
                 <span className="badge-number">Est. 2023</span>
                 <span className="badge-text">Founded by Students</span>

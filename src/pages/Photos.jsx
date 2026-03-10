@@ -2,21 +2,21 @@ import { useState, useEffect, useCallback } from 'react'
 import './Photos.css'
 
 const photos = [
-  { src: '/images/events/Barn_Cleanup_Images/Group_photo.jpg', caption: 'Volunteer team at the Whitehall Township Barn Cleanup' },
-  { src: '/images/events/LCCD_Tree_Planting_Project/IMG_8168.jpg', caption: 'Tree planting with Lehigh County Conservation District' },
-  { src: '/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5749.jpg', caption: 'Hindu Temple grounds restoration collaboration' },
-  { src: '/images/events/E-Recycleing_29th_June_2024/image.jpg', caption: 'Community E-Recycling Day event' },
-  { src: '/images/events/First_project_BirdHousetrimming/mainimage.jpg', caption: 'Birdhouse restoration at Whitehall Township' },
-  { src: '/images/events/Fullerton_Road_Side_Cleanup/20241109_100926.jpg', caption: 'Fullerton Road Side Cleanup' },
-  { src: '/images/events/Keiosk/1.jpg', caption: 'Informational kiosk for Whitehall Township' },
-  { src: '/images/events/Jays_Eagle_Project/image.jpg', caption: "Jay's Eagle Scout Project" },
-  { src: '/images/events/Invasive_SpeciesRemoval_HabitatRestoration/image1.png', caption: 'Invasive species removal and habitat restoration' },
-  { src: '/images/events/LCCD_Tree_Planting_Project/IMG_9169.jpg', caption: 'Volunteers planting trees for LCCD project' },
-  { src: '/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5831.jpg', caption: 'Team working at the Hindu Temple grounds' },
-  { src: '/images/events/Barn_Cleanup_Images/FInished.jpg', caption: 'Completed barn cleanup project' },
-  { src: '/images/events/E-Recycleing_29th_June_2024/Dunken_Spnsor_Zunair.jpg', caption: 'Sponsor support at E-Recycling Day' },
-  { src: '/images/events/LCCD_Tree_Planting_Project/IMG_4811.jpg', caption: 'Native tree planting in Lehigh County' },
-  { src: '/images/events/Whitehall_Invasive_Species_Removal/IMG_8462.jpg', caption: 'Whitehall invasive species removal' }
+  { src: '/CUECF_Website/images/events/Barn_Cleanup_Images/Group_photo.jpg', caption: 'Volunteer team at the Whitehall Township Barn Cleanup' },
+  { src: '/CUECF_Website/images/events/LCCD_Tree_Planting_Project/IMG_8168.jpg', caption: 'Tree planting with Lehigh County Conservation District' },
+  { src: '/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5749.jpg', caption: 'Hindu Temple grounds restoration collaboration' },
+  { src: '/CUECF_Website/images/events/E-Recycleing_29th_June_2024/image.jpg', caption: 'Community E-Recycling Day event' },
+  { src: '/CUECF_Website/images/events/First_project_BirdHousetrimming/mainimage.jpg', caption: 'Birdhouse restoration at Whitehall Township' },
+  { src: '/CUECF_Website/images/events/Fullerton_Road_Side_Cleanup/20241109_100926.jpg', caption: 'Fullerton Road Side Cleanup' },
+  { src: '/CUECF_Website/images/events/Keiosk/1.jpg', caption: 'Informational kiosk for Whitehall Township' },
+  { src: '/CUECF_Website/images/events/Jays_Eagle_Project/image.jpg', caption: "Jay's Eagle Scout Project" },
+  { src: '/CUECF_Website/images/events/Invasive_SpeciesRemoval_HabitatRestoration/image1.png', caption: 'Invasive species removal and habitat restoration' },
+  { src: '/CUECF_Website/images/events/LCCD_Tree_Planting_Project/IMG_9169.jpg', caption: 'Volunteers planting trees for LCCD project' },
+  { src: '/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5831.jpg', caption: 'Team working at the Hindu Temple grounds' },
+  { src: '/CUECF_Website/images/events/Barn_Cleanup_Images/FInished.jpg', caption: 'Completed barn cleanup project' },
+  { src: '/CUECF_Website/images/events/E-Recycleing_29th_June_2024/Dunken_Spnsor_Zunair.jpg', caption: 'Sponsor support at E-Recycling Day' },
+  { src: '/CUECF_Website/images/events/LCCD_Tree_Planting_Project/IMG_4811.jpg', caption: 'Native tree planting in Lehigh County' },
+  { src: '/CUECF_Website/images/events/Whitehall_Invasive_Species_Removal/IMG_8462.jpg', caption: 'Whitehall invasive species removal' }
 ]
 
 export default function Photos() {
