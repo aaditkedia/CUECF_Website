@@ -39,11 +39,17 @@ export default function Contact() {
               {submitted ? (
                 <div className="form-success">
                   <div className="success-icon">✓</div>
-                  <h3>Message Sent!</h3>
-                  <p>Thank you for reaching out. We'll get back to you soon.</p>
+                  <h3>Redirecting to Email...</h3>
+                  <p>Your email client is opening. Thank you for reaching out.</p>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} id="contact-form">
+                <form 
+                  onSubmit={handleSubmit} 
+                  id="contact-form"
+                  action="mailto:communityunitedpa@gmail.com"
+                  method="post"
+                  encType="text/plain"
+                >
                   <div className="form-row">
                     <div className="form-group">
                       <label htmlFor="firstName">First Name</label>

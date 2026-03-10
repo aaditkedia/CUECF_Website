@@ -27,18 +27,27 @@ export default function Team() {
       <section className="section">
         <div className="container" ref={headerRef}>
           <div className="team-tabs">
-            <button 
+            <Link 
+              to="?tab=current"
+              replace
               className={`tab-btn ${activeTab === 'current' ? 'active' : ''}`}
-              onClick={() => setSearchParams({ tab: 'current' }, { replace: true })}
             >
               Current Board Members
-            </button>
-            <button 
+            </Link>
+            <Link 
+              to="?tab=past"
+              replace
               className={`tab-btn ${activeTab === 'past' ? 'active' : ''}`}
-              onClick={() => setSearchParams({ tab: 'past' }, { replace: true })}
             >
               Past Board Members
-            </button>
+            </Link>
+            <Link 
+              to="?tab=volunteers"
+              replace
+              className={`tab-btn ${activeTab === 'volunteers' ? 'active' : ''}`}
+            >
+              Volunteers
+            </Link>
           </div>
 
           {activeTab === 'current' && (
@@ -87,26 +96,27 @@ export default function Team() {
             </div>
           )}
 
-          <div className="volunteers-section reveal" ref={headerRef} style={{ marginTop: '5rem' }}>
-            <h2 className="section-title center">Our Volunteers</h2>
-            <div className="volunteers-grid">
-              {volunteers.map((name, i) => (
-                <div key={i} className="volunteer-card reveal" ref={volRef(i)}>
-                  <div className="volunteer-avatar">
-                    {name.split(' ').map(n => n[0]).join('')}
+          {activeTab === 'volunteers' && (
+            <div className="volunteers-section reveal" ref={headerRef}>
+              <div className="volunteers-grid">
+                {volunteers.map((name, i) => (
+                  <div key={i} className="volunteer-card reveal" ref={volRef(i)}>
+                    <div className="volunteer-avatar">
+                      {name.split(' ').map(n => n[0]).join('')}
+                    </div>
+                    <h3 className="volunteer-name">{name}</h3>
+                    <span className="volunteer-label">Volunteer</span>
                   </div>
-                  <h3 className="volunteer-name">{name}</h3>
-                  <span className="volunteer-label">Volunteer</span>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
 
-            <div className="volunteer-cta reveal">
-              <h2>Want to Join Our Team?</h2>
-              <p>We're always looking for passionate individuals who want to make a difference in our community.</p>
-              <Link to="/contact" className="btn btn-primary">Become a Volunteer →</Link>
+              <div className="volunteer-cta reveal">
+                <h2>Want to Join Our Team?</h2>
+                <p>We're always looking for passionate individuals who want to make a difference in our community.</p>
+                <Link to="/contact" className="btn btn-primary">Become a Volunteer →</Link>
+              </div>
             </div>
-          </div>
+          )}
 
         </div>
       </section>
