@@ -1,14 +1,18 @@
 import { useParams, Link, Navigate } from 'react-router-dom'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 import { teamMembers, memberBios } from '../data/team'
+import { pastMembers, pastMemberBios } from '../data/pastMembers'
 import './Team.css'
 
 export default function TeamMember() {
   const { memberId } = useParams()
   const contentRef = useScrollReveal()
 
-  const member = teamMembers.find(m => m.id === memberId)
-  const details = memberBios[memberId]
+  const allMembers = [...teamMembers, ...pastMembers]
+  const allBios = { ...memberBios, ...pastMemberBios }
+
+  const member = allMembers.find(m => m.id === memberId)
+  const details = allBios[memberId]
 
   if (!member || !details) {
     return <Navigate to="/team" replace />
@@ -42,22 +46,30 @@ export default function TeamMember() {
               </div>
 
               <div className="member-details-grid">
-                <div className="member-detail-card">
-                  <h3>Email</h3>
-                  <p>{details.email}</p>
-                </div>
-                <div className="member-detail-card">
-                  <h3>Location</h3>
-                  <p>{details.location}</p>
-                </div>
-                <div className="member-detail-card">
-                  <h3>Joined</h3>
-                  <p>{details.joined}</p>
-                </div>
-                <div className="member-detail-card">
-                  <h3>Focus Area</h3>
-                  <p>{details.focus}</p>
-                </div>
+                {details.email && (
+                  <div className="member-detail-card">
+                    <h3>Email</h3>
+                    <p>{details.email}</p>
+                  </div>
+                )}
+                {details.location && (
+                  <div className="member-detail-card">
+                    <h3>Location</h3>
+                    <p>{details.location}</p>
+                  </div>
+                )}
+                {details.joined && (
+                  <div className="member-detail-card">
+                    <h3>Joined</h3>
+                    <p>{details.joined}</p>
+                  </div>
+                )}
+                {details.focus && (
+                  <div className="member-detail-card">
+                    <h3>Focus Area</h3>
+                    <p>{details.focus}</p>
+                  </div>
+                )}
               </div>
 
               <Link to="/contact" className="btn btn-primary">Get in Touch →</Link>

@@ -3,7 +3,7 @@ export const teamMembers = [
     id: 'aadit-kedia',
     name: 'Aadit Kedia',
     role: 'Co-Founder & Chairman',
-    image: '/CUECF_Website/images/photo-team-presentation.png',
+    image: '/CUECF_Website/images/Aadit_Kedia.png',
     excerpt: 'Passionate about environmental conservation and community building.'
   },
   {
