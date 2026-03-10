@@ -1,5 +1,4 @@
-import { useState, useEffect } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { useSearchParams, Link } from 'react-router-dom'
 import { useScrollReveal, useMultiReveal } from '../hooks/useScrollReveal'
 import { teamMembers } from '../data/team'
 import { pastMembers } from '../data/pastMembers'
@@ -7,18 +6,8 @@ import { volunteers } from '../data/volunteers'
 import './Team.css'
 
 export default function Team() {
-  const [activeTab, setActiveTab] = useState('current')
-  const location = useLocation()
-  
-  useEffect(() => {
-    const searchParams = new URLSearchParams(location.search)
-    const tab = searchParams.get('tab')
-    if (tab === 'past' || tab === 'volunteers') {
-      setActiveTab(tab)
-    } else {
-      setActiveTab('current')
-    }
-  }, [location])
+  const [searchParams, setSearchParams] = useSearchParams()
+  const activeTab = searchParams.get('tab') || 'current'
 
   const headerRef = useScrollReveal()
   const teamRef = useMultiReveal(teamMembers.length)
@@ -40,30 +29,15 @@ export default function Team() {
           <div className="team-tabs">
             <button 
               className={`tab-btn ${activeTab === 'current' ? 'active' : ''}`}
-              onClick={() => {
-                setActiveTab('current')
-                window.history.replaceState(null, '', '#/team')
-              }}
+              onClick={() => setSearchParams({ tab: 'current' }, { replace: true })}
             >
               Current Board Members
             </button>
             <button 
               className={`tab-btn ${activeTab === 'past' ? 'active' : ''}`}
-              onClick={() => {
-                setActiveTab('past')
-                window.history.replaceState(null, '', '#/team?tab=past')
-              }}
+              onClick={() => setSearchParams({ tab: 'past' }, { replace: true })}
             >
               Past Board Members
-            </button>
-            <button 
-              className={`tab-btn ${activeTab === 'volunteers' ? 'active' : ''}`}
-              onClick={() => {
-                setActiveTab('volunteers')
-                window.history.replaceState(null, '', '#/team?tab=volunteers')
-              }}
-            >
-              Volunteers
             </button>
           </div>
 
@@ -113,27 +87,26 @@ export default function Team() {
             </div>
           )}
 
-          {activeTab === 'volunteers' && (
-            <div>
-              <div className="volunteers-grid">
-                {volunteers.map((name, i) => (
-                  <div key={i} className="volunteer-card reveal" ref={volRef(i)}>
-                    <div className="volunteer-avatar">
-                      {name.split(' ').map(n => n[0]).join('')}
-                    </div>
-                    <h3 className="volunteer-name">{name}</h3>
-                    <span className="volunteer-label">Volunteer</span>
+          <div className="volunteers-section reveal" ref={headerRef} style={{ marginTop: '5rem' }}>
+            <h2 className="section-title center">Our Volunteers</h2>
+            <div className="volunteers-grid">
+              {volunteers.map((name, i) => (
+                <div key={i} className="volunteer-card reveal" ref={volRef(i)}>
+                  <div className="volunteer-avatar">
+                    {name.split(' ').map(n => n[0]).join('')}
                   </div>
-                ))}
-              </div>
-
-              <div className="volunteer-cta reveal" ref={headerRef}>
-                <h2>Want to Join Our Team?</h2>
-                <p>We're always looking for passionate individuals who want to make a difference in our community.</p>
-                <Link to="/contact" className="btn btn-primary">Become a Volunteer →</Link>
-              </div>
+                  <h3 className="volunteer-name">{name}</h3>
+                  <span className="volunteer-label">Volunteer</span>
+                </div>
+              ))}
             </div>
-          )}
+
+            <div className="volunteer-cta reveal">
+              <h2>Want to Join Our Team?</h2>
+              <p>We're always looking for passionate individuals who want to make a difference in our community.</p>
+              <Link to="/contact" className="btn btn-primary">Become a Volunteer →</Link>
+            </div>
+          </div>
 
         </div>
       </section>

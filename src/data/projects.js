@@ -277,10 +277,10 @@ export const completedProjects = [
     ],
   },
   {
-    id: "whitehall-info-kiosk",
-    title: "Whitehall Township Natural Information Services and Kiosk",
+    id: "lehigh-gap-info-kiosk",
+    title: "Lehigh Gap Nature Center Information Services and Kiosk",
     partner: "Project with Lehigh Gap Nature Center",
-    location: "Whitehall Township, Pennsylvania",
+    location: "Lehigh Gap Nature Center, Pennsylvania",
     image: "/CUECF_Website/images/events/Keiosk/1.jpg",
     gallery: [
       "/CUECF_Website/images/events/Keiosk/1.jpg",
@@ -291,14 +291,14 @@ export const completedProjects = [
       "/CUECF_Website/images/events/Keiosk/we.jpg",
     ],
     summary:
-      "Designed, developed, and completed a natural informational kiosk for Whitehall Township residents.",
+      "Designed, developed, and completed a natural informational kiosk for the Lehigh Gap Nature Center.",
     description: [
-      "We were able to design, develop and install an informational kiosk on nature for Whitehall Township. This has allowed for more people to gain valuable information about our natural world and how to protect it.",
+      "We were able to design, develop and install an informational kiosk on nature for the Lehigh Gap Nature Center. This has allowed for more people to gain valuable information about our natural world and how to protect it.",
       "Through this, we spread the word of vital conservation efforts, information about the natural world, and upcoming projects in our community. The installation day went smoothly and the kiosk is now fully operational."
     ],
     highlights: [
       { number: "1", label: "Kiosk Installed" },
-      { number: "1", label: "Township Served" },
+      { number: "1", label: "Center Served" },
       { number: "100s", label: "Viewers Reached" },
       { number: "Completed", label: "Installation" },
     ],
