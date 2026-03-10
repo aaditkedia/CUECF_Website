@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
 import { useScrollReveal, useMultiReveal } from '../hooks/useScrollReveal'
-import { teamMembers } from '../data/team'
+import { volunteers } from '../data/volunteers'
 import './Team.css'
 
-export default function Team() {
+export default function Volunteers() {
   const headerRef = useScrollReveal()
-  const teamRef = useMultiReveal(teamMembers.length)
+  const volRef = useMultiReveal(volunteers.length, { staggerDelay: 100 })
 
   return (
     <div className="page-content">
@@ -22,7 +22,7 @@ export default function Team() {
           <div className="team-tabs">
             <Link 
               to="/team"
-              className="tab-btn active"
+              className="tab-btn"
             >
               Current Board Members
             </Link>
@@ -34,31 +34,30 @@ export default function Team() {
             </Link>
             <Link 
               to="/team/volunteers"
-              className="tab-btn"
+              className="tab-btn active"
             >
               Volunteers
             </Link>
           </div>
 
-          <div className="team-grid">
-              {teamMembers.map((member, i) => (
-                <Link
-                  to={`/team/${member.id}`}
-                  key={member.id}
-                  className="team-card reveal"
-                  ref={teamRef(i)}
-                >
-                  <div className="team-card-img">
-                    <img src={member.image} alt={member.name} />
+          <div className="volunteers-section reveal">
+            <div className="volunteers-grid">
+              {volunteers.map((name, i) => (
+                <div key={i} className="volunteer-card reveal" ref={volRef(i)}>
+                  <div className="volunteer-avatar">
+                    {name.split(' ').map(n => n[0]).join('')}
                   </div>
-                  <div className="team-card-body">
-                    <h3>{member.name}</h3>
-                    <p className="team-card-role">{member.role}</p>
-                    <p className="team-card-excerpt">{member.excerpt}</p>
-                    <span className="team-card-link">Read Bio →</span>
-                  </div>
-                </Link>
+                  <h3 className="volunteer-name">{name}</h3>
+                  <span className="volunteer-label">Volunteer</span>
+                </div>
               ))}
+            </div>
+
+            <div className="volunteer-cta reveal">
+              <h2>Want to Join Our Team?</h2>
+              <p>We're always looking for passionate individuals who want to make a difference in our community.</p>
+              <Link to="/contact" className="btn btn-primary">Become a Volunteer →</Link>
+            </div>
           </div>
 
         </div>

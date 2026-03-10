@@ -67,7 +67,9 @@ export default function Navbar() {
             </button>
             <div className={`dropdown-menu ${aboutOpen ? 'show' : ''}`}>
               <NavLink to="/about" className="dropdown-item" id="nav-link-mission">Our Mission</NavLink>
-              <NavLink to="/team" className="dropdown-item" id="nav-link-team">Our Team</NavLink>
+              <NavLink to="/team" className="dropdown-item" id="nav-link-team">Current Board Members</NavLink>
+              <NavLink to="/team/past" className="dropdown-item" id="nav-link-team-past">Past Board Members</NavLink>
+              <NavLink to="/team/volunteers" className="dropdown-item" id="nav-link-team-volunteers">Volunteers</NavLink>
             </div>
           </div>
 

@@ -10,6 +10,8 @@ import OngoingProjects from './pages/OngoingProjects'
 import ProjectDetail from './pages/ProjectDetail'
 import Photos from './pages/Photos'
 import Contact from './pages/Contact'
+import PastBoardMembers from './pages/PastBoardMembers'
+import Volunteers from './pages/Volunteers'
 
 export default function App() {
   return (
@@ -19,6 +21,8 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/team/past" element={<PastBoardMembers />} />
+        <Route path="/team/volunteers" element={<Volunteers />} />
         <Route path="/team/:memberId" element={<TeamMember />} />
         <Route path="/projects/completed" element={<CompletedProjects />} />
         <Route path="/projects/ongoing" element={<OngoingProjects />} />
