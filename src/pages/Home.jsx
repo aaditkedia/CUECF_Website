@@ -11,12 +11,13 @@ const partners = [
   { name: 'Lehigh County Conservation District', logo: '/CUECF_Website/images/logo-lehigh-county-conservation.png' },
   { name: 'Hindu Heritage', logo: '/CUECF_Website/images/logo-hindu-heritage.png' },
   { name: 'Parkland High School', logo: '/CUECF_Website/images/ParklandHighSchool.png' },
+  { name: 'Springhouse Middle School', logo: '/CUECF_Website/images/Springhouse_Middle_School_logo.png' },
 ]
 
 const stats = [
   { value: 11, suffix: '+', label: 'Projects Completed' },
   { value: 8, suffix: '+', label: 'Active Volunteers' },
-  { value: 6, suffix: '', label: 'Partner Organizations' },
+  { value: 8, suffix: '', label: 'Partner Organizations' },
   { value: 2, suffix: '', label: 'Years of Impact' },
 ]
 
