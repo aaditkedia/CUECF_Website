@@ -40,19 +40,28 @@ export default function Team() {
           <div className="team-tabs">
             <button 
               className={`tab-btn ${activeTab === 'current' ? 'active' : ''}`}
-              onClick={() => setActiveTab('current')}
+              onClick={() => {
+                setActiveTab('current')
+                window.history.replaceState(null, '', '#/team')
+              }}
             >
               Current Board Members
             </button>
             <button 
               className={`tab-btn ${activeTab === 'past' ? 'active' : ''}`}
-              onClick={() => setActiveTab('past')}
+              onClick={() => {
+                setActiveTab('past')
+                window.history.replaceState(null, '', '#/team?tab=past')
+              }}
             >
               Past Board Members
             </button>
             <button 
               className={`tab-btn ${activeTab === 'volunteers' ? 'active' : ''}`}
-              onClick={() => setActiveTab('volunteers')}
+              onClick={() => {
+                setActiveTab('volunteers')
+                window.history.replaceState(null, '', '#/team?tab=volunteers')
+              }}
             >
               Volunteers
             </button>

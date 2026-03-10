@@ -165,13 +165,15 @@
   background: var(--color-bg-secondary);
   padding: var(--space-4xl) var(--space-xl);
   border-radius: var(--radius-lg);
-  margin-top: var(--space-4xl);
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 }
 
 .volunteer-cta p {
-  margin: var(--space-xl) auto var(--space-2xl);
+  margin: 1.5rem auto 2.5rem;
   color: var(--color-text-secondary);
   max-width: 600px;
+  line-height: 1.8;
 }
 
 .past-members-placeholder {

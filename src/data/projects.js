@@ -275,6 +275,33 @@ export const completedProjects = [
       { number: "1", label: "Township Partner" },
       { number: "Ongoing", label: "Maintenance" },
     ],
+  },
+  {
+    id: "whitehall-info-kiosk",
+    title: "Whitehall Township Natural Information Services and Kiosk",
+    partner: "Project with Lehigh Gap Nature Center",
+    location: "Whitehall Township, Pennsylvania",
+    image: "/CUECF_Website/images/events/Keiosk/1.jpg",
+    gallery: [
+      "/CUECF_Website/images/events/Keiosk/1.jpg",
+      "/CUECF_Website/images/events/Keiosk/image.jpg",
+      "/CUECF_Website/images/events/Keiosk/qe.jpg",
+      "/CUECF_Website/images/events/Keiosk/qwe.jpg",
+      "/CUECF_Website/images/events/Keiosk/w.jpg",
+      "/CUECF_Website/images/events/Keiosk/we.jpg",
+    ],
+    summary:
+      "Designed, developed, and completed a natural informational kiosk for Whitehall Township residents.",
+    description: [
+      "We were able to design, develop and install an informational kiosk on nature for Whitehall Township. This has allowed for more people to gain valuable information about our natural world and how to protect it.",
+      "Through this, we spread the word of vital conservation efforts, information about the natural world, and upcoming projects in our community. The installation day went smoothly and the kiosk is now fully operational."
+    ],
+    highlights: [
+      { number: "1", label: "Kiosk Installed" },
+      { number: "1", label: "Township Served" },
+      { number: "100s", label: "Viewers Reached" },
+      { number: "Completed", label: "Installation" },
+    ],
   }
 ];
 
@@ -319,26 +346,7 @@ export const ongoingProjects = [
       { number: "Ongoing", label: "Programs" },
     ],
   },
-  {
-    id: "whitehall-info-kiosk",
-    title: "Whitehall Township Natural Information Services and Kiosk",
-    partner: "Project with Lehigh Gap Nature Center",
-    location: "Whitehall Township, Pennsylvania",
-    image: null,
-    gallery: [],
-    summary:
-      "Designing, developing, and maintaining informational kiosks on nature for Whitehall Township residents.",
-    description: [
-      "We have been able to design, develop and maintain informational kiosks on nature for Whitehall Township. This has allowed for more people to gain valuable information about our natural world and how to protect it.",
-      "Through this, we spread the word of vital conservation efforts, information about the natural world, and upcoming projects in our community.",
-    ],
-    highlights: [
-      { number: "2+", label: "Kiosks Installed" },
-      { number: "1", label: "Township Served" },
-      { number: "100s", label: "Viewers Reached" },
-      { number: "Ongoing", label: "Maintenance" },
-    ],
-  },
+
   {
     id: "lehigh-gap-habitat-design",
     title: "Lehigh Gap Habitat Design",
