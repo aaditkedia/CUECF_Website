@@ -5,8 +5,6 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Team from './pages/Team'
 import TeamMember from './pages/TeamMember'
-import PastMembers from './pages/PastMembers'
-import Volunteers from './pages/Volunteers'
 import CompletedProjects from './pages/CompletedProjects'
 import OngoingProjects from './pages/OngoingProjects'
 import ProjectDetail from './pages/ProjectDetail'
@@ -22,8 +20,6 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/team" element={<Team />} />
         <Route path="/team/:memberId" element={<TeamMember />} />
-        <Route path="/past-members" element={<PastMembers />} />
-        <Route path="/volunteers" element={<Volunteers />} />
         <Route path="/projects/completed" element={<CompletedProjects />} />
         <Route path="/projects/ongoing" element={<OngoingProjects />} />
         <Route path="/projects/:type/:projectId" element={<ProjectDetail />} />

@@ -23,7 +23,7 @@ export default function Footer() {
 
           <div className="footer-links">
             <h4>Get Involved</h4>
-            <Link to="/volunteers">Become a Volunteer</Link>
+            <Link to="/team?tab=volunteers">Become a Volunteer</Link>
             <Link to="/contact">Contact Us</Link>
           </div>
 
