@@ -1,0 +1,225 @@
+/* ===== Team Page - Light Theme ===== */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-xl);
+}
+
+.team-card {
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: all var(--transition-base);
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.team-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-accent);
+  color: inherit;
+}
+
+.team-card-img {
+  height: 220px;
+  overflow: hidden;
+}
+
+.team-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.team-card:hover .team-card-img img {
+  transform: scale(1.05);
+}
+
+.team-card-body {
+  padding: var(--space-xl);
+  text-align: center;
+}
+
+.team-card-body h3 {
+  font-size: 1rem;
+  margin-bottom: var(--space-xs);
+  color: var(--color-text-heading);
+}
+
+.team-card-role {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-accent);
+  margin-bottom: var(--space-sm);
+}
+
+.team-card-excerpt {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+.team-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-top: var(--space-sm);
+}
+
+.team-footer-links {
+  text-align: center;
+  margin-top: var(--space-3xl);
+}
+
+.past-members-placeholder {
+  text-align: center;
+  padding: var(--space-4xl) 0;
+}
+
+.past-members-placeholder h2 {
+  font-size: 1.8rem;
+  margin-bottom: var(--space-sm);
+  color: var(--color-text-heading);
+}
+
+.past-members-placeholder p {
+  color: var(--color-text-secondary);
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+
+/* ===== Team Member Detail Page ===== */
+.member-detail {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: var(--space-3xl);
+  align-items: start;
+}
+
+.member-photo {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-border);
+}
+
+.member-photo img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+.member-info h1 {
+  font-size: 2.2rem;
+  margin-bottom: var(--space-xs);
+}
+
+.member-role-badge {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  background: rgba(26, 122, 58, 0.08);
+  padding: 0.3rem 1rem;
+  border-radius: var(--radius-xl);
+  margin-bottom: var(--space-xl);
+}
+
+.member-bio {
+  margin-bottom: var(--space-2xl);
+}
+
+.member-bio h2 {
+  font-size: 1.3rem;
+  margin-bottom: var(--space-md);
+  color: var(--color-text-heading);
+}
+
+.member-bio p {
+  color: var(--color-text-secondary);
+  line-height: 1.9;
+  margin-bottom: var(--space-md);
+}
+
+.member-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+  margin-bottom: var(--space-2xl);
+}
+
+.member-detail-card {
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+}
+
+.member-detail-card h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-xs);
+}
+
+.member-detail-card p {
+  font-size: 0.95rem;
+  color: var(--color-text-heading);
+  font-weight: 500;
+}
+
+.member-back {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-accent);
+  margin-bottom: var(--space-xl);
+}
+
+.member-back:hover {
+  color: var(--color-accent-dark);
+}
+
+@media (max-width: 768px) {
+  .member-detail {
+    grid-template-columns: 1fr;
+  }
+
+  .member-photo img {
+    height: 300px;
+  }
+
+  .member-details-grid {
+    grid-template-columns: 1fr;
+  }
+}
