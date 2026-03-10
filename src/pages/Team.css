@@ -163,13 +163,13 @@
 .volunteer-cta {
   text-align: center;
   background: var(--color-bg-secondary);
-  padding: var(--space-3xl) var(--space-xl);
+  padding: var(--space-4xl) var(--space-xl);
   border-radius: var(--radius-lg);
-  margin-top: var(--space-3xl);
+  margin-top: var(--space-4xl);
 }
 
 .volunteer-cta p {
-  margin: var(--space-md) auto var(--space-xl);
+  margin: var(--space-xl) auto var(--space-2xl);
   color: var(--color-text-secondary);
   max-width: 600px;
 }

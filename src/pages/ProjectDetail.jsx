@@ -32,11 +32,13 @@ export default function ProjectDetail() {
       <section className="section" ref={contentRef}>
         <div className="container">
           <div className="project-detail-layout reveal">
-            <div className="project-detail-gallery">
-              {project.gallery.map((img, i) => (
-                <img key={i} src={img} alt={`${project.title} - Photo ${i + 1}`} />
-              ))}
-            </div>
+            {project.gallery && project.gallery.length > 0 && (
+              <div className="project-detail-gallery">
+                {project.gallery.map((img, i) => (
+                  <img key={i} src={img} alt={`${project.title} - Photo ${i + 1}`} />
+                ))}
+              </div>
+            )}
 
             <div className="project-detail-info">
               <div className="project-detail-meta">

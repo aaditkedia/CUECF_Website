@@ -29,9 +29,11 @@ export default function OngoingProjects() {
                 className="project-listing-card reveal"
                 ref={setRef(i)}
               >
-                <div className="project-listing-img">
-                  <img src={project.image} alt={project.title} />
-                </div>
+                {project.image && (
+                  <div className="project-listing-img">
+                    <img src={project.image} alt={project.title} />
+                  </div>
+                )}
                 <div className="project-listing-body">
                   <span className="project-card-status ongoing">In Progress</span>
                   <h3>{project.title}</h3>

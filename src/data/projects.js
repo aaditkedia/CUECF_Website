@@ -149,8 +149,8 @@ export const completedProjects = [
   },
   {
     id: "jays-eagle-project",
-    title: "Jay's Eagle Scout Project",
-    partner: "Community United Environmental Conservation Foundation",
+    title: "Collaboration with Jay's Eagle Scout",
+    partner: "Contacted: Jay's Eagle Scout, Wildlife Conservancy in Emmaus",
     location: "Lehigh Valley, Pennsylvania",
     image: "/CUECF_Website/images/events/Jays_Eagle_Project/image.jpg",
     gallery: [
@@ -160,22 +160,22 @@ export const completedProjects = [
       "/CUECF_Website/images/events/Jays_Eagle_Project/image9.png",
     ],
     summary:
-      "Supported an Eagle Scout project focused on environmental conservation and habitat improvement in the Lehigh Valley.",
+      "Collaborated physically during the summer with Jay's Eagle Scout along with Wildlife Conservancy to remove invasive Asian Viburnum plants.",
     description: [
-      "As part of our commitment to youth leadership and environmental stewardship, Community United supported Jay's Eagle Scout project. This project focused on making tangible improvements to local habitats and natural spaces.",
-      "Through careful planning and dedicated volunteer effort, the project achieved meaningful environmental impact while helping a young leader earn their Eagle Scout rank — demonstrating how conservation and community development go hand in hand.",
+      "We wanted to collaborate physically during the summer with a fellow organization, in this case Jay's Eagle Scout along with Wildlife conservancy in Emmaus.",
+      "When we do physical work, we specifically remove invasive species (Asian Viburnum plant) in order to promote further native plant growth and restore biodiversity across the park. The biggest problem with invasive species is that they outcompete native species for resources, thus causing a slow decay in native species growth which in turn causes a decay in the presence of biodiversity. Here are some of the photos of us doing this project:"
     ],
     highlights: [
       { number: "1", label: "Eagle Project" },
       { number: "8+", label: "Volunteers" },
-      { number: "1", label: "Scout Supported" },
+      { number: "1", label: "Partner Org" },
       { number: "1", label: "Community Impact" },
     ],
   },
   {
     id: "lccd-tree-planting",
     title: "LCCD Tree Planting Project",
-    partner: "Project with Lehigh County Conservation District",
+    partner: "Contacted: Lehigh County Conservation District (LCCD), Anthony Wang, Guhan Sureshkumar",
     location: "Lehigh County, Pennsylvania",
     image: "/CUECF_Website/images/events/LCCD_Tree_Planting_Project/IMG_8168.jpg",
     gallery: [
@@ -190,18 +190,92 @@ export const completedProjects = [
       "/CUECF_Website/images/events/LCCD_Tree_Planting_Project/image10.png",
     ],
     summary:
-      "Partnered with the Lehigh County Conservation District to plant native trees and restore natural habitats across the county.",
+      "Communicated with LCCD to establish new native plantations across the region and remove invasive species.",
     description: [
-      "Deforestation and development have reduced tree cover in Lehigh County, impacting local ecosystems, air quality, and wildlife habitats. The Lehigh County Conservation District organized a large-scale tree planting initiative to address this.",
-      "Community United provided volunteers and support for this effort, helping plant native tree species in strategic locations throughout the county. These trees will grow to provide habitat for wildlife, improve air quality, prevent soil erosion, and beautify the community for years to come.",
+      "This project was communicated with the LCCD (Lehigh County Conservation District). Members such as Anthony Wang and Guhan Sureshkumar showed up to this meeting.",
+      "In the LCCD Tree Planting Project, our members focused on establishing new native plantations across the region, planting around 30-35 native trees as a result. Invasive species were removed beforehand. Planting native trees was to ensure that biodiversity continues to remain significant at parks as it can also support habitat and other ecosystem services as well."
     ],
     highlights: [
-      { number: "50+", label: "Trees Planted" },
+      { number: "30+", label: "Trees Planted" },
       { number: "10+", label: "Volunteers" },
       { number: "1", label: "County Served" },
       { number: "1", label: "Partner Org" },
     ],
   },
+  {
+    id: "springhouse-collaboration",
+    title: "Springhouse Educational Collaboration",
+    partner: "Contacted: Springhouse Middle School (Parkland School District), Guhan Sureshkumar, Vikram Alturu, Sanjith Rajkumar",
+    location: "Lehigh Valley, Pennsylvania",
+    image: null,
+    gallery: [],
+    summary:
+      "Introduced plans including presentations, trivia games, and conservation craft-theme projects at Springhouse Middle School.",
+    description: [
+      "This project was communicated directly toward Springhouse Middle School which is part of the Parkland School District. At Springhouse Middle School, our members were dedicated in introducing our plans which included giving presentations, doing school-related trivia games regarding environmental science, and creating conservation craft-theme projects.",
+      "Our first orientation meeting was on 12/9/25. We are pursuing more meetings to follow through in the year 2026. Members who arrived at the meeting included Guhan Sureshkumar, Vikram Alturu, Sanjith Rajkumar. No Pictures are available yet, but will upload as soon as I receive them."
+    ],
+    highlights: [
+      { number: "1", label: "Partner Org" },
+      { number: "3+", label: "Programs Planned" },
+      { number: "Ongoing", label: "Collaboration" },
+      { number: "1", label: "Community Served" },
+    ],
+  },
+  {
+    id: "hindu-temple-collaboration",
+    title: "Collaboration with Hindu Temple Society",
+    partner: "Contacted: Hindu Temple Society, Sushal Boddeda, Sriram Joshi, Aneesh Kashalkar",
+    location: "Lehigh Valley, Pennsylvania",
+    image: "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5749.jpg",
+    gallery: [
+      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5749.jpg",
+      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5752.jpg",
+      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5753.jpg",
+      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5755.jpg",
+      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5757.jpg",
+      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5831.jpg",
+      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/image4.png",
+      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/image8.png",
+      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/5716659549106976966.jpg",
+    ],
+    summary:
+      "Presented a topic on environmental awareness and degradation to 3rd-5th graders to encourage action.",
+    description: [
+      "At the Hindu Temple Society, I worked with my fellow peers in presenting a topic on environmental awareness and environmental degradation to 3rd-5th graders.",
+      "We wanted to encourage little kids to start to take action as their contributions make a meaningful impact toward society. We specifically stressed these three main important words: Reduce, Reuse, and Recycle. Members who showed up to the event included Sushal Boddeda, Sriram Joshi, Aneesh Kashalkar,"
+    ],
+    highlights: [
+      { number: "1", label: "Community Center" },
+      { number: "1", label: "Presentation" },
+      { number: "1", label: "Partner Org" },
+      { number: "1", label: "Community Served" },
+    ],
+  },
+  {
+    id: "whitehall-habitat-restoration",
+    title: "Invasive Species Removal and Habitat Restoration in collaboration with Whitehall Township",
+    partner: "Contacted: Whitehall Township",
+    location: "Whitehall Township, Pennsylvania",
+    image: "/CUECF_Website/images/events/Invasive_SpeciesRemoval_HabitatRestoration/image7.png",
+    gallery: [
+      "/CUECF_Website/images/events/Invasive_SpeciesRemoval_HabitatRestoration/image1.png",
+      "/CUECF_Website/images/events/Invasive_SpeciesRemoval_HabitatRestoration/image5.png",
+      "/CUECF_Website/images/events/Invasive_SpeciesRemoval_HabitatRestoration/image7.png",
+    ],
+    summary:
+      "Removed invasive weeds at the Whitehall parkway and used tree branches to create a suitable habitat for native species.",
+    description: [
+      "We went to the Whitehall parkway and collaborated with Whitehall Township in which we were designated with removing invasive species (i.e. weeds) and used some of the tree branches that were removed to create a suitable habitat for the native species, like beavers.",
+      "This ensures that we continue to restore biodiversity across the area. Some images detailing our work include the following:"
+    ],
+    highlights: [
+      { number: "3+", label: "Species Targeted" },
+      { number: "10+", label: "Habitats Restored" },
+      { number: "1", label: "Township Partner" },
+      { number: "Ongoing", label: "Maintenance" },
+    ],
+  }
 ];
 
 export const ongoingProjects = [
@@ -210,8 +284,8 @@ export const ongoingProjects = [
     title: "Parkland High School Native Plant Garden",
     partner: "Developed with Parkland High School and its Conservation Club",
     location: "Parkland High School, Pennsylvania",
-    image: "/CUECF_Website/images/ParklandHighSchool.png",
-    gallery: ["/CUECF_Website/images/ParklandHighSchool.png"],
+    image: null,
+    gallery: [],
     summary:
       "Designing and building a native plant garden with artificial habitats and informational placards at Parkland High School.",
     description: [
@@ -226,68 +300,12 @@ export const ongoingProjects = [
     ],
   },
   {
-    id: "whitehall-habitat-restoration",
-    title: "Whitehall Township Habitat Restoration and Creation",
-    partner: "Developed in collaboration with Whitehall Township",
-    location: "Whitehall Township, Pennsylvania",
-    image:
-      "/CUECF_Website/images/events/Invasive_SpeciesRemoval_HabitatRestoration/image7.png",
-    gallery: [
-      "/CUECF_Website/images/events/Invasive_SpeciesRemoval_HabitatRestoration/image1.png",
-      "/CUECF_Website/images/events/Invasive_SpeciesRemoval_HabitatRestoration/image5.png",
-      "/CUECF_Website/images/events/Invasive_SpeciesRemoval_HabitatRestoration/image7.png",
-    ],
-    summary:
-      "Creating artificial habitats for jays, bats, ducks, and other species throughout the Lehigh Valley.",
-    description: [
-      "We have worked with Whitehall Township to develop plans for Community United to create key habitats for a variety of animals within the Lehigh Valley. We are currently contracted to develop artificial habitats for a variety of animals, including jays, bats, and ducks.",
-      "Once these birdhouses are completed, we will continue to monitor them for invasive species and ensure that the habitats are being used by the intended animals.",
-    ],
-    highlights: [
-      { number: "3+", label: "Species Targeted" },
-      { number: "10+", label: "Habitats Planned" },
-      { number: "1", label: "Township Partner" },
-      { number: "Ongoing", label: "Monitoring" },
-    ],
-  },
-  {
-    id: "hindu-temple-grounds",
-    title: "Hindu Temple Grounds Restoration",
-    partner: "Developed in collaboration with the Hindu Temple",
-    location: "Lehigh Valley, Pennsylvania",
-    image:
-      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5749.jpg",
-    gallery: [
-      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5749.jpg",
-      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5752.jpg",
-      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5753.jpg",
-      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5755.jpg",
-      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5757.jpg",
-      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/IMG_5831.jpg",
-      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/image4.png",
-      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/image8.png",
-      "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/5716659549106976966.jpg",
-    ],
-    summary:
-      "Restoring temple grounds to be more sustainable through habitat construction, grounds revitalization, and natural space development.",
-    description: [
-      "In collaboration with the Hindu Temple, we are restoring their grounds to be more sustainable and work in conjunction with nature.",
-      "This will occur through a construction of habitats, revitalization of grounds, and other developments. Through this we will be able to assist in adding natural spaces to a local community center.",
-    ],
-    highlights: [
-      { number: "1", label: "Community Center" },
-      { number: "1", label: "Grounds Restored" },
-      { number: "3+", label: "Developments" },
-      { number: "1", label: "Partner" },
-    ],
-  },
-  {
     id: "lvas-informational-services",
     title: "Lehigh Valley Audubon Society Informational Services",
     partner: "Developed in collaboration with Lehigh Valley Audubon Society",
     location: "Lehigh Valley, Pennsylvania",
-    image: "/CUECF_Website/images/logo-lehigh-valley-audubon.png",
-    gallery: ["/CUECF_Website/images/logo-lehigh-valley-audubon.png"],
+    image: null,
+    gallery: [],
     summary:
       "Providing volunteers for educational events, writing informative flyers, and planning future conservation programs.",
     description: [
@@ -306,15 +324,8 @@ export const ongoingProjects = [
     title: "Whitehall Township Natural Information Services and Kiosk",
     partner: "Project with Lehigh Gap Nature Center",
     location: "Whitehall Township, Pennsylvania",
-    image: "/CUECF_Website/images/events/Keiosk/1.jpg",
-    gallery: [
-      "/CUECF_Website/images/events/Keiosk/1.jpg",
-      "/CUECF_Website/images/events/Keiosk/image.jpg",
-      "/CUECF_Website/images/events/Keiosk/qe.jpg",
-      "/CUECF_Website/images/events/Keiosk/qwe.jpg",
-      "/CUECF_Website/images/events/Keiosk/w.jpg",
-      "/CUECF_Website/images/events/Keiosk/we.jpg",
-    ],
+    image: null,
+    gallery: [],
     summary:
       "Designing, developing, and maintaining informational kiosks on nature for Whitehall Township residents.",
     description: [
@@ -333,8 +344,8 @@ export const ongoingProjects = [
     title: "Lehigh Gap Habitat Design",
     partner: "Developed in collaboration with Lehigh Gap Nature Center",
     location: "Lehigh Valley, Pennsylvania",
-    image: "/CUECF_Website/images/logo-lehigh-gap-nature-center.png",
-    gallery: ["/CUECF_Website/images/logo-lehigh-gap-nature-center.png"],
+    image: null,
+    gallery: [],
     summary:
       "Designing artificial habitats to Lehigh Gap specifications for deployment throughout the Lehigh Valley.",
     description: [
@@ -347,25 +358,5 @@ export const ongoingProjects = [
       { number: "1", label: "Valley Served" },
       { number: "Ongoing", label: "Design Work" },
     ],
-  },
-  {
-    id: "springhouse-collaboration",
-    title: "Springhouse Educational Collaboration",
-    partner: "Developed in collaboration with Springhouse",
-    location: "Lehigh Valley, Pennsylvania",
-    image: "/CUECF_Website/images/logo-cuecf.png",
-    gallery: ["/CUECF_Website/images/logo-cuecf.png"],
-    summary:
-      "Partnering with Springhouse to deliver environmental education programs and collaborative conservation initiatives.",
-    description: [
-      "Community United has partnered with Springhouse to develop and deliver educational programs focused on environmental conservation. This collaboration brings together our field experience with Springhouse's educational expertise.",
-      "Through this partnership, we aim to inspire the next generation of environmental stewards by providing hands-on learning experiences and fostering a deeper understanding of local ecosystems and conservation practices.",
-    ],
-    highlights: [
-      { number: "1", label: "Partner Org" },
-      { number: "3+", label: "Programs Planned" },
-      { number: "Ongoing", label: "Collaboration" },
-      { number: "1", label: "Community Served" },
-    ],
-  },
+  }
 ];
