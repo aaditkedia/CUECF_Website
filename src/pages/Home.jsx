@@ -133,9 +133,6 @@ export default function Home() {
               </div>
             </Link>
             <Link to="/projects/ongoing" className="project-card" id="project-card-ongoing">
-              <div className="project-card-image">
-                <img src="/CUECF_Website/images/ParklandHighSchool.png" alt="Parkland HS Native Plant Garden" style={{ objectFit: 'contain', padding: '1rem', backgroundColor: '#fff' }} />
-              </div>
               <div className="project-card-body">
                 <span className="project-status ongoing">Ongoing</span>
                 <h3>Parkland HS Native Plant Garden</h3>
