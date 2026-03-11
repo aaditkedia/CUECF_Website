@@ -3,9 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   base: '/CUECF_Website/',
-  plugins: [react()],
-  server: {
-    port: 5173,
-    open: true
-  }
+  plugins: [react()]
 })
