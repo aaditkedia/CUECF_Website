@@ -21,9 +21,9 @@ export default function ProjectDetail() {
       <section className="page-hero">
         <div className="container">
           <Link to={`/projects/${type}`} className="detail-back">
-            ← Back to {isCompleted ? 'Completed' : 'Ongoing'} Projects
+            ← Back to {isCompleted ? 'Past' : 'Ongoing'} Projects
           </Link>
-          <span className="section-label">{isCompleted ? 'Completed Project' : 'Ongoing Project'}</span>
+          <span className="section-label">{isCompleted ? 'Past Project' : 'Ongoing Project'}</span>
           <h1 className="page-hero-title">{project.title}</h1>
           <p className="page-hero-desc">{project.partner}</p>
         </div>
@@ -43,7 +43,7 @@ export default function ProjectDetail() {
             <div className="project-detail-info">
               <div className="project-detail-meta">
                 <span className={`project-card-status ${isCompleted ? 'completed' : 'ongoing'}`}>
-                  {isCompleted ? 'Completed' : 'In Progress'}
+                  {isCompleted ? 'Past Project' : 'In Progress'}
                 </span>
                 <span className="project-detail-location">{project.location}</span>
               </div>

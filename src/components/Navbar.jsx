@@ -51,7 +51,7 @@ export default function Navbar() {
               Projects <span className={`chevron ${projectsOpen ? 'up' : ''}`}>▾</span>
             </button>
             <div className={`dropdown-menu ${projectsOpen ? 'show' : ''}`}>
-              <NavLink to="/projects/completed" className="dropdown-item" id="nav-link-completed">Completed</NavLink>
+              <NavLink to="/projects/completed" className="dropdown-item" id="nav-link-completed">Past Projects</NavLink>
               <NavLink to="/projects/ongoing" className="dropdown-item" id="nav-link-ongoing">Ongoing</NavLink>
               <NavLink to="/photos" className="dropdown-item" id="nav-link-photos">Photos</NavLink>
             </div>

@@ -15,7 +15,7 @@ const partners = [
 ]
 
 const stats = [
-  { value: 11, suffix: '+', label: 'Projects Completed' },
+  { value: 11, suffix: '+', label: 'Past Projects' },
   { value: 8, suffix: '+', label: 'Active Volunteers' },
   { value: 8, suffix: '', label: 'Partner Organizations' },
   { value: 2, suffix: '', label: 'Years of Impact' },
@@ -110,6 +110,7 @@ export default function Home() {
             {partners.map((partner, i) => (
               <div key={i} className="partner-tile">
                 <img src={partner.logo} alt={partner.name} />
+                <p className="partner-name">{partner.name}</p>
               </div>
             ))}
           </div>
@@ -127,7 +128,7 @@ export default function Home() {
                 <img src="/CUECF_Website/images/events/First_project_BirdHousetrimming/mainimage.jpg" alt="Whitehall Birdhouse Cleanup" />
               </div>
               <div className="project-card-body">
-                <span className="project-status completed">✓ Completed</span>
+                <span className="project-status completed">✓ Past Project</span>
                 <h3>Whitehall Birdhouse Cleanup</h3>
                 <p>Removing vegetation and replacing birdhouses to restore habitats for bluebirds and swallows.</p>
               </div>

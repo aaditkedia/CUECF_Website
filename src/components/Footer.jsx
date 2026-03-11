@@ -16,7 +16,7 @@ export default function Footer() {
             <h4>Quick Links</h4>
             <Link to="/about">Our Mission</Link>
             <Link to="/team">Our Team</Link>
-            <Link to="/projects/completed">Completed Projects</Link>
+            <Link to="/projects/completed">Past Projects</Link>
             <Link to="/projects/ongoing">Ongoing Projects</Link>
             <Link to="/photos">Photos</Link>
           </div>

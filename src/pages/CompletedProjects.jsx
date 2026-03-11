@@ -12,7 +12,7 @@ export default function CompletedProjects() {
       <section className="page-hero">
         <div className="container">
           <span className="section-label">Projects</span>
-          <h1 className="page-hero-title">Completed Projects</h1>
+          <h1 className="page-hero-title">Past Projects</h1>
           <p className="page-hero-desc">
             Explore the conservation projects we have successfully completed across the Lehigh Valley.
           </p>
@@ -33,7 +33,7 @@ export default function CompletedProjects() {
                   <img src={project.image} alt={project.title} />
                 </div>
                 <div className="project-listing-body">
-                  <span className="project-card-status completed">Completed</span>
+                  <span className="project-card-status completed">Past Project</span>
                   <h3>{project.title}</h3>
                   <p className="project-listing-partner">{project.partner}</p>
                   <p className="project-listing-summary">{project.summary}</p>

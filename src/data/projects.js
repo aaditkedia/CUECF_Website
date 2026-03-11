@@ -168,8 +168,6 @@ export const completedProjects = [
     highlights: [
       { number: "1", label: "Eagle Project" },
       { number: "8+", label: "Volunteers" },
-      { number: "1", label: "Partner Org" },
-      { number: "1", label: "Community Impact" },
     ],
   },
   {
@@ -207,7 +205,7 @@ export const completedProjects = [
     title: "Springhouse Educational Collaboration",
     partner: "Contacted: Springhouse Middle School (Parkland School District), Guhan Sureshkumar, Vikram Alturu, Sanjith Rajkumar",
     location: "Lehigh Valley, Pennsylvania",
-    image: null,
+    image: "/CUECF_Website/images/Springhouse_Middle_School_logo.png",
     gallery: [],
     summary:
       "Introduced plans including presentations, trivia games, and conservation craft-theme projects at Springhouse Middle School.",
