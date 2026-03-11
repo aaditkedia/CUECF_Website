@@ -38,7 +38,7 @@ export default function Home() {
           <div className="hero-overlay"></div>
         </div>
         <div className="hero-content container">
-          <div className="hero-badge">Environmental Conservation</div>
+
           <h1 className="hero-title">
             Community <span className="highlight">United</span>
           </h1>
