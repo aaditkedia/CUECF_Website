@@ -172,6 +172,7 @@
   grid-template-columns: 1fr 1fr;
   gap: var(--space-md);
   margin-bottom: var(--space-lg);
+  max-width: 900px;
 }
 
 .project-before-after > div {

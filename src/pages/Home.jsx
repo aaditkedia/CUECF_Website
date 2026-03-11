@@ -132,7 +132,7 @@ export default function Home() {
                 <h3>Whitehall Birdhouse Cleanup</h3>
                 <p>The project that started it all: removing vegetation and replacing birdhouses to restore habitats.</p>
                 <div style={{ marginTop: '1rem', fontSize: '0.85rem', fontWeight: '500', color: 'var(--color-primary)' }}>
-                  A Special Thanks to Whitehall Township for giving us this opportunity!
+                  A Special Thanks to Whitehall Township for giving us this opportunity to grow!
                 </div>
               </div>
             </Link>

@@ -19,8 +19,8 @@ export const completedProjects = [
     description: [
       "Whitehall Township placed a large quantity of birdhouses across their township and the natural areas within it. These birdhouses had been crucial components to particular species of birds staying in the Lehigh Valley. However, as time went on the vegetation surrounding current bluebird and swallow birdhouses grew. This impeded birds access to almost every birdhouse in the community.",
       "We removed the vegetation to make a better habitat for the birds. In addition, some bird houses were installed in an area that desired species would not use. We removed these birdhouses and replaced them, allowing them to be used elsewhere.",
-      "The dedicated team at this kickoff project included Amogh, Aadit, Zain, Anthony, Aadavan, and Zunair.",
     ],
+    volunteersPresent: ["Amogh", "Aadit", "Zain", "Anthony", "Aadavan", "Zunair"],
     highlights: [
       { number: "30+", label: "Birdhouses Restored" },
       { number: "8", label: "Volunteers" },
@@ -64,8 +64,8 @@ export const completedProjects = [
     description: [
       "A core issue facing our community was the littering or mismanaged disposal of electronic trash. This went against our principles of sustainability and supporting nature.",
       "In an effort to resolve this, we partnered with Whitehall Township. We assisted running a valuable support initiative for the township, providing manpower for the initiative. Ultimately, we were able to assist in the recycling of hundreds of pounds of electronic waste and serve our community.",
-      "A huge thank you to the members who were at the E-Recycle project: Reyhan, Amogh, Aadit, Anthony, Shaunak, and Zunair.",
     ],
+    volunteersPresent: ["Reyhan", "Amogh", "Aadit", "Anthony", "Shaunak", "Zunair"],
     highlights: [
       { number: "100s", label: "Pounds Recycled" },
       { number: "8", label: "Volunteers" },

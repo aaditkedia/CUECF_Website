@@ -79,6 +79,17 @@ export default function ProjectDetail() {
                   </div>
                 ))}
               </div>
+
+              {project.volunteersPresent && project.volunteersPresent.length > 0 && (
+                <div className="project-volunteers-list" style={{ marginTop: '2rem', padding: '1.5rem', background: 'var(--color-bg-secondary)', borderRadius: 'var(--radius-lg)' }}>
+                  <h3 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', color: 'var(--color-text-heading)' }}>Volunteers Present</h3>
+                  <ul style={{ margin: 0, paddingLeft: '1.25rem', color: 'var(--color-text-secondary)', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.25rem' }}>
+                    {project.volunteersPresent.map((vol, idx) => (
+                      <li key={idx} style={{ marginBottom: '0.25rem' }}>{vol}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           </div>
         </div>
