@@ -5,6 +5,8 @@ export const completedProjects = [
     partner: "Developed in conjunction with Whitehall Township",
     location: "Whitehall Township, Pennsylvania",
     image: "/CUECF_Website/images/events/First_project_BirdHousetrimming/mainimage.jpg",
+    beforeImage: "/CUECF_Website/images/events/Keiosk/Old_Kiosk_That_Was_replaced.jpg",
+    afterImage: "/CUECF_Website/images/events/Keiosk/1.jpg",
     gallery: [
       "/CUECF_Website/images/events/First_project_BirdHousetrimming/mainimage.jpg",
       "/CUECF_Website/images/events/First_project_BirdHousetrimming/image.jpg",
@@ -281,8 +283,6 @@ export const completedProjects = [
     location: "Lehigh Gap Nature Center, Pennsylvania",
     isPinned: true,
     image: "/CUECF_Website/images/events/Keiosk/1.jpg",
-    beforeImage: "/CUECF_Website/images/events/Keiosk/Old_Kiosk_That_Was_replaced.jpg",
-    afterImage: "/CUECF_Website/images/events/Keiosk/1.jpg",
     gallery: [
       "/CUECF_Website/images/events/Keiosk/1.jpg",
       "/CUECF_Website/images/events/Keiosk/image.jpg",
