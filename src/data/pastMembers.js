@@ -3,35 +3,35 @@ export const pastMembers = [
     id: 'zain-matin',
     name: 'Zain Matin',
     role: 'Co-Founder and Vice-Chairperson',
-    image: '/CUECF_Website/images/Zain_Matin.jpg',
+    image: '/CUECF_Website/images/people/retired/Zain_Matin.jpg',
     excerpt: 'Helped found CUECF with a strong concern for the future of the environment.'
   },
   {
     id: 'amogh-bhati',
     name: 'Amogh Bhati',
     role: 'Webmaster',
-    image: '/CUECF_Website/images/Amogh_Bhati.png',
+    image: '/CUECF_Website/images/people/retired/Amogh_Bhati.png',
     excerpt: 'Combining a passion for web development with environmental conservation.'
   },
   {
     id: 'ahmad-suleiman',
     name: 'Ahmad Suleiman',
     role: 'Secretary',
-    image: '/CUECF_Website/images/Ahmad_Suleiman.jpg',
+    image: '/CUECF_Website/images/people/retired/Ahmad_Suleiman.jpg',
     excerpt: 'Dedicated to bettering the environment and communicating between businesses.'
   },
   {
     id: 'shaunak-neogi',
     name: 'Shaunak Neogi',
     role: 'Chief Recruiting Officer',
-    image: '/CUECF_Website/images/Shaunak_Neogi.jpg',
+    image: '/CUECF_Website/images/people/retired/Shaunak_Neogi.jpg',
     excerpt: 'Worked to get CUECF out there and inform students and residents.'
   },
   {
     id: 'seshi-gudimetla',
     name: 'Seshi Gudimetla',
     role: 'Recruiting Officer',
-    image: '/CUECF_Website/images/Seshi_Gudimetla.jpg',
+    image: '/CUECF_Website/images/people/retired/Seshi_Gudimetla.jpg',
     excerpt: 'Spreading the goal of CUECF and encouraging others to join the cause.'
   }
 ];

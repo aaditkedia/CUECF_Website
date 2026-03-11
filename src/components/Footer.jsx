@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <img src="/CUECF_Website/images/logo-cuecf.png" alt="CUECF" className="footer-logo" />
+            <img src="/CUECF_Website/images/logos/logo-cuecf.png" alt="CUECF" className="footer-logo" />
             <p>Community United: Environmental Conservation Foundation</p>
             <p className="footer-tagline">Uniting our community for a sustainable future.</p>
           </div>

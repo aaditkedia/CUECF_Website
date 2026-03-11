@@ -4,14 +4,14 @@ import AnimatedCounter from '../components/AnimatedCounter'
 import './Home.css'
 
 const partners = [
-  { name: 'Whitehall Township', logo: '/CUECF_Website/images/logo-whitehall-township.png' },
-  { name: 'Lehigh Gap Nature Center', logo: '/CUECF_Website/images/logo-lehigh-gap-nature-center.png' },
-  { name: 'Lehigh Valley Audubon Society', logo: '/CUECF_Website/images/logo-lehigh-valley-audubon.png' },
-  { name: 'Wildlands Conservancy', logo: '/CUECF_Website/images/logo-wildlands-conservancy.png' },
-  { name: 'Lehigh County Conservation District', logo: '/CUECF_Website/images/logo-lehigh-county-conservation.png' },
-  { name: 'Hindu Heritage', logo: '/CUECF_Website/images/logo-hindu-heritage.png' },
-  { name: 'Parkland High School', logo: '/CUECF_Website/images/ParklandHighSchool.png' },
-  { name: 'Springhouse Middle School', logo: '/CUECF_Website/images/Springhouse_Middle_School_logo.png' },
+  { name: 'Whitehall Township', logo: '/CUECF_Website/images/logos/logo-whitehall-township.png' },
+  { name: 'Lehigh Gap Nature Center', logo: '/CUECF_Website/images/logos/logo-lehigh-gap-nature-center.png' },
+  { name: 'Lehigh Valley Audubon Society', logo: '/CUECF_Website/images/logos/logo-lehigh-valley-audubon.png' },
+  { name: 'Wildlands Conservancy', logo: '/CUECF_Website/images/logos/logo-wildlands-conservancy.png' },
+  { name: 'Lehigh County Conservation District', logo: '/CUECF_Website/images/logos/logo-lehigh-county-conservation.png' },
+  { name: 'Hindu Heritage', logo: '/CUECF_Website/images/logos/logo-hindu-heritage.png' },
+  { name: 'Parkland High School', logo: '/CUECF_Website/images/logos/ParklandHighSchool.png' },
+  { name: 'Springhouse Middle School', logo: '/CUECF_Website/images/logos/Springhouse_Middle_School_logo.png' },
 ]
 
 const stats = [
@@ -153,7 +153,7 @@ export default function Home() {
               <p>Join our community of volunteers and help build a sustainable future for everyone — humans, plants, and animals alike.</p>
               <Link to="/contact" className="btn btn-primary" id="cta-join">Join Us Today →</Link>
             </div>
-            <img src="/CUECF_Website/images/logo-cuecf.png" alt="CUECF Logo" className="cta-mascot" />
+            <img src="/CUECF_Website/images/logos/logo-cuecf.png" alt="CUECF Logo" className="cta-mascot" />
           </div>
         </div>
       </section>

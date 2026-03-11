@@ -3,14 +3,14 @@ export const teamMembers = [
     id: 'aadit-kedia',
     name: 'Aadit Kedia',
     role: 'Co-Founder & Chairman',
-    image: '/CUECF_Website/images/Aadit_Kedia.png',
+    image: '/CUECF_Website/images/people/current/Aadit_Kedia.png',
     excerpt: 'Passionate about environmental conservation and community building.'
   },
   {
     id: 'adam-vazquies',
     name: 'Adam Vazquies',
     role: 'Co-Founder & Event Coordinator',
-    image: '/CUECF_Website/images/adam-vazquies-headshot.png',
+    image: '/CUECF_Website/images/people/current/adam-vazquies-headshot.png',
     excerpt: 'Coordinating events and partnerships to drive conservation impact.'
   },
   {

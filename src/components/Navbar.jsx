@@ -25,7 +25,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} id="main-nav">
       <div className="navbar-inner container">
         <Link to="/" className="navbar-brand" id="nav-home-link">
-          <img src="/CUECF_Website/images/logo-cuecf.png" alt="CUECF Logo" className="navbar-logo" />
+          <img src="/CUECF_Website/images/logos/logo-cuecf.png" alt="CUECF Logo" className="navbar-logo" />
         </Link>
 
         <button
