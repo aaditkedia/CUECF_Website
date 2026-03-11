@@ -5,7 +5,8 @@ import './Projects.css'
 
 export default function CompletedProjects() {
   const headerRef = useScrollReveal()
-  const setRef = useMultiReveal(completedProjects.length)
+  const sortedProjects = [...completedProjects].sort((a, b) => (b.isPinned ? 1 : 0) - (a.isPinned ? 1 : 0))
+  const setRef = useMultiReveal(sortedProjects.length)
 
   return (
     <div className="page-content">
@@ -22,7 +23,7 @@ export default function CompletedProjects() {
       <section className="section" ref={headerRef}>
         <div className="container">
           <div className="project-listing-grid">
-            {completedProjects.map((project, i) => (
+            {sortedProjects.map((project, i) => (
               <Link
                 to={`/projects/completed/${project.id}`}
                 key={project.id}

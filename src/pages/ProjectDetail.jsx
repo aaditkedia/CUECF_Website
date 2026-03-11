@@ -56,6 +56,19 @@ export default function ProjectDetail() {
                 ))}
               </div>
 
+              {project.beforeImage && project.afterImage && (
+                <div className="project-before-after">
+                  <div className="before-image">
+                    <span className="image-label">Before</span>
+                    <img src={project.beforeImage} alt={`Before ${project.title}`} />
+                  </div>
+                  <div className="after-image">
+                    <span className="image-label">After</span>
+                    <img src={project.afterImage} alt={`After ${project.title}`} />
+                  </div>
+                </div>
+              )}
+
               <p className="project-detail-partner">{project.partner}</p>
 
               <div className="project-highlights-grid">

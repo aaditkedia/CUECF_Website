@@ -167,6 +167,42 @@
   margin-bottom: var(--space-md);
 }
 
+.project-before-after {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.project-before-after > div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-before-after .image-label {
+  position: absolute;
+  top: var(--space-md);
+  left: var(--space-md);
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 4px 12px;
+  border-radius: var(--radius-md);
+  font-size: 0.85rem;
+  font-weight: 600;
+  z-index: 2;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.project-before-after img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+}
+
 .project-detail-partner {
   font-size: 0.95rem;
   color: var(--color-accent);
@@ -220,6 +256,9 @@
 
 @media (max-width: 480px) {
   .project-highlights-grid {
+    grid-template-columns: 1fr;
+  }
+  .project-before-after {
     grid-template-columns: 1fr;
   }
 }

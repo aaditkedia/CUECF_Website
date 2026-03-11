@@ -123,14 +123,14 @@ export default function Home() {
           <span className="section-label">Projects</span>
           <p className="section-subtitle">From birdhouse restoration to native plant gardens, every project brings our community closer together.</p>
           <div className="projects-grid">
-            <Link to="/projects/completed" className="project-card" id="project-card-completed">
+            <Link to="/projects/completed/lehigh-gap-info-kiosk" className="project-card" id="project-card-completed">
               <div className="project-card-image">
-                <img src="/CUECF_Website/images/events/First_project_BirdHousetrimming/mainimage.jpg" alt="Whitehall Birdhouse Cleanup" />
+                <img src="/CUECF_Website/images/events/Keiosk/1.jpg" alt="Lehigh Gap Nature Center Information Services and Kiosk" />
               </div>
               <div className="project-card-body">
                 <span className="project-status completed">✓ Past Project</span>
-                <h3>Whitehall Birdhouse Cleanup</h3>
-                <p>Removing vegetation and replacing birdhouses to restore habitats for bluebirds and swallows.</p>
+                <h3>Lehigh Gap Information Kiosk</h3>
+                <p>Designed and built a natural informational kiosk to educate visitors at the Lehigh Gap Nature Center.</p>
               </div>
             </Link>
             <Link to="/projects/ongoing" className="project-card" id="project-card-ongoing">
