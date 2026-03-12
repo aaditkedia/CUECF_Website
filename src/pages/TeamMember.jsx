@@ -23,7 +23,6 @@ export default function TeamMember() {
       <section className="page-hero">
         <div className="container">
           <Link to="/team" className="member-back">← Back to Team</Link>
-          <span className="section-label">Team Member</span>
           <h1 className="page-hero-title">{member.name}</h1>
           <p className="page-hero-desc">{member.role}</p>
         </div>
