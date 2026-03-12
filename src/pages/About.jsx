@@ -40,7 +40,6 @@ export default function About() {
               </div>
             </div>
             <div className="about-text-col">
-              <h2 className="section-title">Why We Exist</h2>
               <div className="about-text-spacing">
                 <p>
                   As students, we have felt there has not been enough emphasis on supporting our surrounding
