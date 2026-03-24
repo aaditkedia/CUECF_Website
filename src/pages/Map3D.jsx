@@ -78,9 +78,9 @@ export default function Map3D() {
             const sprite = new SpriteText(node.label);
             sprite.color = '#ffffff';
             sprite.backgroundColor = node.color;
-            sprite.padding = [4, 2];
-            sprite.textHeight = node.group === 'partner' ? 6 : 4;
-            sprite.borderRadius = 4;
+            sprite.padding = [8, 4];
+            sprite.textHeight = node.group === 'partner' ? 12 : 8;
+            sprite.borderRadius = 6;
             return sprite;
           }}
           // Enhance repulsion between nodes to give them more breathing room
