@@ -93,7 +93,7 @@ export const memberBios = {
       'Aadit believes that meaningful change starts at the local level. His approach combines hands-on fieldwork with strategic partnerships, building lasting relationships with organizations like the Lehigh Gap Nature Center, Wildlands Conservancy, and the Lehigh County Conservation District.'
     ],
     email: 'aaditkedia1@gmail.com',
-    location: 'Whitehall Township, PA',
+    location: 'Allentown, PA',
     joined: '2024',
     focus: 'Leadership & Strategy'
   },
@@ -103,8 +103,8 @@ export const memberBios = {
       'I realized that there was a critical shortage of volunteers in our community, even with many high schoolers looking for volunteer opportunities. I partnered with two of my friends to try to resolve this critical issue.',
       'Due to my experience in communication from FBLA and the Debate team, as well as my experience handling money from being the treasurer of my school\'s Political Science Club, I elected to coordinate the events and relations with other companies. As the event coordinator I have been able to spearhead a multitude of partnerships and projects, many of which you can learn about on this website!'
     ],
-    email: 'communityunitedpa@gmail.com',
-    location: 'Whitehall Township, PA',
+    email: 'vazquiesa@gmail.com',
+    location: 'Allentown, PA',
     joined: '2024',
     focus: 'Event Coordination & Partnerships'
   },
@@ -115,7 +115,7 @@ export const memberBios = {
       'Beyond the books, Anthony is a passionate volunteer who regularly participates in planting events, e-recycling drives, and community outreach programs. He believes that strong operational foundations are essential for any nonprofit to achieve lasting, meaningful change.'
     ],
     email: 'anthonywang1215@gmail.com',
-    location: 'Whitehall Township, PA',
+    location: 'Allentown, PA',
     joined: '2024',
     focus: 'Finance & Operations'
   },
@@ -125,9 +125,9 @@ export const memberBios = {
       'Aneesh is responsible for keeping the team organized and ensuring that every project milestone is properly tracked and recorded. His attention to detail and commitment to transparency are essential to the foundation\'s smooth operation.',
       'As a dedicated environmentalist, Aneesh brings both administrative expertise and a genuine love for the natural world to everything he does at CUECF.'
     ],
-    email: 'communityunitedpa@gmail.com',
-    location: 'Whitehall Township, PA',
-    joined: '2024',
+    email: 'aneesh.kashalkar@gmail.com',
+    location: 'Allentown, PA',
+    joined: '2025',
     focus: 'Administration & Documentation'
   },
   'shreemay-shah': {
@@ -136,8 +136,8 @@ export const memberBios = {
       'Shreemay is actively involved in project planning and helps evaluate new conservation opportunities across the Lehigh Valley. His analytical approach ensures that CUECF\'s efforts are both impactful and sustainable.',
       'He believes that youth engagement in environmental conservation is critical for building a sustainable future and works to bring that perspective to the board.'
     ],
-    email: 'communityunitedpa@gmail.com',
-    location: 'Whitehall Township, PA',
+    email: 'shreemay.shah@gmail.com',
+    location: 'Allentown, PA',
     joined: '2024',
     focus: 'Strategy & Planning'
   },
@@ -148,7 +148,7 @@ export const memberBios = {
       'He is passionate about using technology and digital platforms as tools for environmental advocacy and community building.'
     ],
     email: 'communityunitedpa@gmail.com',
-    location: 'Whitehall Township, PA',
+    location: 'Allentown, PA',
     joined: '2024',
     focus: 'Digital Outreach & Communications'
   },
@@ -159,7 +159,7 @@ export const memberBios = {
       'He believes that effective community relations are the backbone of successful conservation work and strives to create mutually beneficial partnerships.'
     ],
     email: 'communityunitedpa@gmail.com',
-    location: 'Whitehall Township, PA',
+    location: 'Allentown, PA',
     joined: '2024',
     focus: 'Community Relations & Partnerships'
   },
@@ -170,7 +170,7 @@ export const memberBios = {
       'He is passionate about the intersection of technology and environmentalism, believing that innovative tools can significantly amplify conservation efforts.'
     ],
     email: 'communityunitedpa@gmail.com',
-    location: 'Whitehall Township, PA',
+    location: 'Allentown, PA',
     joined: '2024',
     focus: 'Technology & Digital Infrastructure'
   },
@@ -181,7 +181,7 @@ export const memberBios = {
       'His commitment to environmental stewardship and community service makes him a valuable contributor to the foundation\'s ongoing mission.'
     ],
     email: 'communityunitedpa@gmail.com',
-    location: 'Whitehall Township, PA',
+    location: 'Allentown, PA',
     joined: '2024',
     focus: 'Volunteer Coordination'
   },
@@ -192,7 +192,7 @@ export const memberBios = {
       'He is driven by a belief that local action can create global change and brings this conviction to his work with CUECF.'
     ],
     email: 'communityunitedpa@gmail.com',
-    location: 'Whitehall Township, PA',
+    location: 'Allentown, PA',
     joined: '2024',
     focus: 'Project Evaluation'
   },
@@ -203,7 +203,7 @@ export const memberBios = {
       'He is committed to making environmental conservation accessible and engaging for people of all backgrounds.'
     ],
     email: 'communityunitedpa@gmail.com',
-    location: 'Whitehall Township, PA',
+    location: 'Allentown, PA',
     joined: '2024',
     focus: 'Outreach & Advocacy'
   },
@@ -214,7 +214,7 @@ export const memberBios = {
       'His forward-thinking approach and dedication to sustainability make him an asset to the foundation\'s leadership team.'
     ],
     email: 'communityunitedpa@gmail.com',
-    location: 'Whitehall Township, PA',
+    location: 'Allentown, PA',
     joined: '2024',
     focus: 'Program Development'
   }

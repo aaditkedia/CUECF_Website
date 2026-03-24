@@ -41,6 +41,7 @@ export default function Navbar() {
 
         <div className={`navbar-menu ${isOpen ? 'open' : ''}`}>
           <NavLink to="/" className="nav-link" id="nav-link-home">Home</NavLink>
+          <NavLink to="/3d-map" className="nav-link" id="nav-link-3dmap" onClick={() => {setProjectsOpen(false); setAboutOpen(false)}}>3D Map</NavLink>
 
           <div className="nav-dropdown">
             <button

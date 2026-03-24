@@ -102,20 +102,17 @@ export default function Contact() {
             <div className="contact-info reveal" ref={infoRef}>
               <div className="info-card">
                 <div className="info-icon">Email</div>
-                <h3>Email Us</h3>
                 <a href="mailto:communityunitedpa@gmail.com">communityunitedpa@gmail.com</a>
                 <a href="mailto:aaditkedia1@gmail.com">aaditkedia1@gmail.com</a>
                 <a href="mailto:anthonywang1215@gmail.com">anthonywang1215@gmail.com</a>
               </div>
               <div className="info-card">
                 <div className="info-icon">Phone</div>
-                <h3>Call Us</h3>
                 <a href="tel:610-969-5835">610-969-5835</a>
               </div>
               <div className="info-card">
                 <div className="info-icon">Location</div>
-                <h3>Location</h3>
-                <p>Whitehall Township, Pennsylvania</p>
+                <p>Lehigh Valley, Pennsylvania</p>
               </div>
             </div>
           </div>
