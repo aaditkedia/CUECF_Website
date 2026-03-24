@@ -75,13 +75,38 @@ export default function Map3D() {
       return name.trim();
     };
 
+    const wrapText = (str, maxLen = 22) => {
+      if (!str) return 'Unknown';
+      let clean = str
+        .replace(/in collaboration with .+/ig, '')
+        .replace(/Collaboration with /ig, '')
+        .replace(/Project with /ig, '')
+        .trim();
+        
+      const words = clean.split(' ');
+      let lines = [];
+      let currentLine = '';
+      
+      words.forEach(word => {
+        if ((currentLine + word).length > maxLen) {
+          if (currentLine) lines.push(currentLine.trim());
+          currentLine = word + ' ';
+        } else {
+          currentLine += word + ' ';
+        }
+      });
+      if (currentLine) lines.push(currentLine.trim());
+      
+      return lines.join('\n');
+    };
+
     rawProjects.forEach(proj => {
       const pName = cleanPartnerName(proj.partner);
       
       if (!nodesMap.has(pName)) {
         nodesMap.set(pName, {
           id: pName,
-          label: pName,
+          label: wrapText(pName),
           group: 'partner',
           val: 27,
           color: '#e84393' 
@@ -92,7 +117,7 @@ export default function Map3D() {
       if (!nodesMap.has(projId)) {
         nodesMap.set(projId, {
           id: projId,
-          label: proj.title,
+          label: wrapText(proj.title),
           group: 'project',
           val: 4,
           color: '#74b9ff'
