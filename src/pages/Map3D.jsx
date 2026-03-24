@@ -175,6 +175,9 @@ export default function Map3D() {
       });
       const stars = new THREE.Points(starsGeometry, starsMaterial);
       scene.add(stars);
+
+      // Add fog to fade out distant nodes and reduce clutter
+      scene.fog = new THREE.FogExp2('#0a0a1a', 0.0025);
     }
   }, []);
 
@@ -235,7 +238,12 @@ export default function Map3D() {
       {!isFullscreen && (
         <div className="map-header">
           <h1>Accomplishments 3D Map</h1>
-          <p>Explore our partners and the projects we've built together.</p>
+          <p>
+            This interactive map represents our community network. 
+            The large pink spheres represent our dedicated partners, while the blue spheres are 
+            the specific conservation projects we've spearheaded together. 
+            You can drag, zoom, and spin the globe, or click specific nodes to focus on them!
+          </p>
         </div>
       )}
       
@@ -281,8 +289,8 @@ export default function Map3D() {
           nodeVisibility={node => !hiddenGroups.has(node.group)}
           linkVisibility={link => !hiddenGroups.has(link.source.group) && !hiddenGroups.has(link.target.group)}
           backgroundColor="#0a0a1a"
-          linkColor={() => 'rgba(108, 92, 231, 0.5)'}
-          linkWidth={1.5}
+          linkColor={() => 'rgba(255, 255, 255, 0.65)'}
+          linkWidth={2}
           linkDirectionalParticles={0} 
           onNodeClick={handleNodeClick}
           nodeThreeObject={node => {
@@ -298,7 +306,7 @@ export default function Map3D() {
               emissiveIntensity: 0.35,
               shininess: 80,
               transparent: true,
-              opacity: 0.92,
+              opacity: 0.6, // Increased transparency
             });
             const sphere = new THREE.Mesh(geometry, material);
             group.add(sphere);

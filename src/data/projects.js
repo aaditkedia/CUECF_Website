@@ -281,7 +281,7 @@ export const completedProjects = [
   {
     id: "lehigh-gap-info-kiosk",
     title: "Lehigh Gap Nature Center Information Services and Kiosk",
-    partner: "Project with Lehigh Gap Nature Center",
+    partner: "Project with Whitehall Township",
     location: "Lehigh Gap Nature Center, Pennsylvania",
     isPinned: true,
     image: "/CUECF_Website/images/events/Keiosk/1.jpg",
