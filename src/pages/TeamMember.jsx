@@ -71,7 +71,7 @@ export default function TeamMember() {
                 )}
               </div>
 
-              <Link to="/contact" className="btn btn-primary">Get in Touch →</Link>
+              <Link to="/contact-us" className="btn btn-primary">Get in Touch →</Link>
             </div>
           </div>
         </div>

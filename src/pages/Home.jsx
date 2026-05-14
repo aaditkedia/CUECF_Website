@@ -51,7 +51,7 @@ export default function Home() {
             <Link to="/about" className="btn btn-primary" id="hero-learn-more">
               Learn More →
             </Link>
-            <Link to="/contact" className="btn btn-outline" id="hero-get-involved">
+            <Link to="/contact-us" className="btn btn-outline" id="hero-get-involved">
               Get Involved
             </Link>
           </div>
@@ -154,7 +154,7 @@ export default function Home() {
             <div className="cta-content">
               <h2>Ready to Make a Difference?</h2>
               <p>Join our community of volunteers and help build a sustainable future for everyone — humans, plants, and animals alike.</p>
-              <Link to="/contact" className="btn btn-primary" id="cta-join">Join Us Today →</Link>
+              <Link to="/contact-us" className="btn btn-primary" id="cta-join">Join Us Today →</Link>
             </div>
             <img src="/CUECF_Website/images/logos/logo-cuecf.png" alt="CUECF Logo" className="cta-mascot" />
           </div>

@@ -56,7 +56,7 @@ export default function Volunteers() {
             <div className="volunteer-cta reveal">
               <h2>Want to Join Our Team?</h2>
               <p>We're always looking for passionate individuals who want to make a difference in our community.</p>
-              <Link to="/contact" className="btn btn-primary">Become a Volunteer →</Link>
+              <Link to="/contact-us" className="btn btn-primary">Become a Volunteer →</Link>
             </div>
           </div>
 

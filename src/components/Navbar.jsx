@@ -75,7 +75,7 @@ export default function Navbar() {
           </div>
 
 
-          <Link to="/contact" className="btn btn-primary nav-cta" id="nav-get-involved">Get Involved</Link>
+          <Link to="/contact-us" className="btn btn-primary nav-cta" id="nav-get-involved">Get Involved</Link>
         </div>
       </div>
     </nav>

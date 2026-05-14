@@ -18,7 +18,15 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault()
     setSubmitted(true)
-    setTimeout(() => setSubmitted(false), 3000)
+    
+    // Construct mailto link
+    const mailtoLink = `mailto:communityunitedpa@gmail.com?subject=${encodeURIComponent(form.subject)}&body=${encodeURIComponent(`Name: ${form.firstName} ${form.lastName}\nEmail: ${form.email}\n\n${form.message}`)}`;
+    
+    // Open email client after a short delay to show success state
+    setTimeout(() => {
+      window.location.href = mailtoLink;
+      // We keep submitted true so they see the redirect message
+    }, 1000);
   }
 
   return (
