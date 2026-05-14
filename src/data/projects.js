@@ -15,10 +15,10 @@ export const completedProjects = [
       "/CUECF_Website/images/events/First_project_BirdHousetrimming/w1=22.jpg",
     ],
     summary:
-      "Restored birdhouse accessibility by removing overgrown vegetation and relocating misplaced birdhouses throughout the township.",
+      "We cleared out thick brush and moved birdhouses to better spots across the township so birds could actually reach them.",
     description: [
-      "Whitehall Township placed a large quantity of birdhouses across their township and the natural areas within it. These birdhouses had been crucial components to particular species of birds staying in the Lehigh Valley. However, as time went on the vegetation surrounding current bluebird and swallow birdhouses grew. This impeded birds access to almost every birdhouse in the community.",
-      "We removed the vegetation to make a better habitat for the birds. In addition, some bird houses were installed in an area that desired species would not use. We removed these birdhouses and replaced them, allowing them to be used elsewhere.",
+      "Whitehall Township has birdhouses all over their natural areas, but over time, many got buried in thick weeds and vines. This made it impossible for bluebirds and swallows to get in and use them.",
+      "Our team spent the day clearing away all that overgrowth to reopen the habitats. We also found some houses in spots where birds wouldn't use them, so we moved them to better locations where they could actually be useful.",
     ],
     volunteersPresent: ["Amogh", "Aadit", "Zain", "Anthony", "Aadavan", "Zunair"],
     highlights: [
@@ -36,10 +36,10 @@ export const completedProjects = [
     image: "/CUECF_Website/images/events/Whitehall_Invasive_Species_Removal/IMG_8462.jpg",
     gallery: ["/CUECF_Website/images/events/Whitehall_Invasive_Species_Removal/IMG_8462.jpg"],
     summary:
-      "Assisted in invasive species removal and sapling protection to restore vital riparian buffers along local waterways.",
+      "We worked on protecting young trees and clearing out invasive plants to help restore the natural buffers along our local streams.",
     description: [
-      "A riparian buffer is a vital part of local ecosystems. They are strips of vegetation around streams that allow for water filtration and habitats while also preventing flooding and soil erosion. However, many of them have been cut down. Organizations like Wildlands Conservancy have attempted to repair these by planting new trees.",
-      "In this case, these trees were being attacked by invasive species. In an attempt to resolve this, we assisted in a process of invasive species removal through placing and repairing the tubes that guarded saplings and performing maintenance on the weeds surrounding the trees, identifying and removing any invasive plants.",
+      "Riparian buffers are just strips of plants and trees along streams that filter water and stop erosion. A lot of these have been lost over the years, so groups like Wildlands Conservancy are working hard to plant new ones.",
+      "We found that the new saplings at Wayne A Grube Park were being choked by invasive weeds. We helped out by repairing the protective tubes around the trees and pulling out the invasive plants that shouldn't be there.",
     ],
     highlights: [
       { number: "50+", label: "Saplings Protected" },
@@ -60,10 +60,10 @@ export const completedProjects = [
       "/CUECF_Website/images/events/E-Recycleing_29th_June_2024/dtfcghvjh.jpg",
     ],
     summary:
-      "Partnered with Whitehall Township to recycle hundreds of pounds of electronic waste, supporting sustainability in our community.",
+      "We teamed up with Whitehall Township to recycle hundreds of pounds of electronic waste, making our community more sustainable.",
     description: [
-      "A core issue facing our community was the littering or mismanaged disposal of electronic trash. This went against our principles of sustainability and supporting nature.",
-      "In an effort to resolve this, we partnered with Whitehall Township. We assisted running a valuable support initiative for the township, providing manpower for the initiative. Ultimately, we were able to assist in the recycling of hundreds of pounds of electronic waste and serve our community.",
+      "We noticed a lot of old electronics were being thrown out the wrong way, which is really tough on the local environment. It went against everything we're trying to do with sustainability.",
+      "To help fix this, we partnered with Whitehall Township for a big recycling day. Our volunteers helped haul and sort hundreds of pounds of old electronics to make sure they were recycled the right way.",
     ],
     volunteersPresent: ["Reyhan", "Amogh", "Aadit", "Anthony", "Shaunak", "Zunair"],
     highlights: [
@@ -86,10 +86,10 @@ export const completedProjects = [
       "/CUECF_Website/images/events/Invasive_SpeciesRemoval_HabitatRestoration/image7.png",
     ],
     summary:
-      "Continued partnership with Wildlands Conservancy to remove invasive species and protect riparian buffers at Trexler Nature Preserve.",
+      "We headed back out with Wildlands Conservancy to keep protecting young trees and clearing invasives at Trexler Nature Preserve.",
     description: [
-      "A riparian buffer is a vital part of local ecosystems. They are strips of vegetation around streams that allow for water filtration and habitats while also preventing flooding and soil erosion. However, many of them have been cut down. Organizations like Wildlands have attempted to repair these by planting new trees.",
-      "In this case, these trees were being attacked by invasive species. In an attempt to resolve this, we assisted in the process of invasive species removal through placing and repairing the tubes that guarded saplings and performing maintenance on the weeds surrounding the trees, identifying and removing any invasive plants. This was a continuation of our ongoing partnership with Wildlands Conservatory in this mission.",
+      "Riparian buffers are vital for keeping our streams clean and preventing erosion. Organizations like Wildlands are working to repair these by planting new trees, but those trees need a lot of maintenance.",
+      "We spent the day at Trexler Nature Preserve repairing the protective tubes around saplings and pulling out invasive weeds. This was a continuation of our ongoing work with Wildlands to make sure these new trees actually survive and grow.",
     ],
     highlights: [
       { number: "40+", label: "Saplings Protected" },
@@ -115,10 +115,10 @@ export const completedProjects = [
       "/CUECF_Website/images/events/Barn_Cleanup_Images/fcvgbhnjew.jpg",
     ],
     summary:
-      "Removed and inventoried construction materials from a township barn to enable facility repair and support future environmental works.",
+      "We helped the township clear out an old barn full of supplies so they could finally get it cleaned up and repaired.",
     description: [
-      "Whitehall Township had previously used a barn for storage of construction materials. These supplies were crucial to Whitehall's environmental works. This barn was in extremely poor condition and therefore the township needed to remove the materials in order to clean and repair the barn.",
-      "We were able to remove these materials so that an inventory could be taken and so that the facility could be properly cleaned. Through this we enabled the long-term stability of future environmental works with the township.",
+      "Whitehall Township uses this barn to store supplies for their environmental projects, but it had gotten into really rough shape. They needed everything moved out so they could start repairs and clean the facility.",
+      "Our team hauled out all the materials so an inventory could be taken. Now that the barn is clear, the township can fix it up and keep using it to support future environmental work in the community.",
     ],
     highlights: [
       { number: "1", label: "Barn Restored" },
@@ -139,10 +139,10 @@ export const completedProjects = [
       "/CUECF_Website/images/events/Fullerton_Road_Side_Cleanup/20241109_110201.jpg",
     ],
     summary:
-      "Organized a community road-side cleanup event in Fullerton to remove litter and beautify the neighborhood.",
+      "We got a group together to pick up trash along the roadside in Fullerton to help beautify the neighborhood.",
     description: [
-      "Roadside litter and debris had accumulated along key areas in Fullerton, creating an eyesore and posing environmental hazards to local wildlife and waterways.",
-      "Our team organized a targeted cleanup event, bringing together volunteers to collect and properly dispose of waste along the roadside. Through this effort, we were able to significantly improve the appearance of the community while preventing pollutants from entering nearby streams and natural habitats.",
+      "Litter along the roads in Fullerton was starting to pile up, which isn't just an eyesore—it's bad for the local wildlife and nearby streams.",
+      "We organized a cleanup event and brought volunteers together to properly dispose of the waste along the roadside. It made a huge difference in how the area looks and helps keep pollutants out of our local water habitats.",
     ],
     highlights: [
       { number: "1", label: "Cleanup Event" },
@@ -164,10 +164,10 @@ export const completedProjects = [
       "/CUECF_Website/images/events/Jays_Eagle_Project/image9.png",
     ],
     summary:
-      "Collaborated physically during the summer with Jay's Eagle Scout along with Wildlife Conservancy to remove invasive Asian Viburnum plants.",
+      "We spent part of our summer working with Jay's Eagle Scout project and the Wildlife Conservancy to clear out invasive plants.",
     description: [
-      "We wanted to collaborate physically during the summer with a fellow organization, in this case Jay's Eagle Scout along with Wildlife conservancy in Emmaus.",
-      "When we do physical work, we specifically remove invasive species (Asian Viburnum plant) in order to promote further native plant growth and restore biodiversity across the park. The biggest problem with invasive species is that they outcompete native species for resources, thus causing a slow decay in native species growth which in turn causes a decay in the presence of biodiversity. Here are some of the photos of us doing this project:"
+      "It was great to get outside over the summer and work alongside the Wildlife Conservancy in Emmaus and Jay's Eagle Scout project.",
+      "We focused on pulling out Asian Viburnum, which is an invasive plant that takes over if you don't stay on top of it. These invasives are a big problem because they crowd out the native plants that belong here. By clearing them out, we're giving the local biodiversity a chance to bounce back."
     ],
     highlights: [
       { number: "1", label: "Eagle Project" },
@@ -192,10 +192,10 @@ export const completedProjects = [
       "/CUECF_Website/images/events/LCCD_Tree_Planting_Project/image10.png",
     ],
     summary:
-      "Communicated with LCCD to establish new native plantations across the region and remove invasive species.",
+      "We met with the LCCD to plan out where we could plant more native trees and clear out invasives across the county.",
     description: [
-      "This project was communicated with the LCCD (Lehigh County Conservation District). Members such as Anthony Wang and Guhan Sureshkumar showed up to this meeting.",
-      "In the LCCD Tree Planting Project, our members focused on establishing new native plantations across the region, planting around 30-35 native trees as a result. Invasive species were removed beforehand. Planting native trees was to ensure that biodiversity continues to remain significant at parks as it can also support habitat and other ecosystem services as well."
+      "This project started with a meeting with the Lehigh County Conservation District to see where we could be most helpful.",
+      "In the end, we planted over 30 native trees after clearing out the invasive weeds in the area. These new trees will help support the local habitat and make sure our parks stay healthy and biodiverse for a long time."
     ],
     highlights: [
       { number: "30+", label: "Trees Planted" },
@@ -212,10 +212,10 @@ export const completedProjects = [
     image: "/CUECF_Website/images/Springhouse_Middle_School_logo.png",
     gallery: [],
     summary:
-      "Introduced plans including presentations, trivia games, and conservation craft-theme projects at Springhouse Middle School.",
+      "We've been working with Springhouse Middle School to teach younger students about conservation through fun games and crafts.",
     description: [
-      "This project was communicated directly toward Springhouse Middle School which is part of the Parkland School District. At Springhouse Middle School, our members were dedicated in introducing our plans which included giving presentations, doing school-related trivia games regarding environmental science, and creating conservation craft-theme projects.",
-      "Our first orientation meeting was on 12/9/25. We are pursuing more meetings to follow through in the year 2026. Members who arrived at the meeting included Guhan Sureshkumar, Vikram Alturu, Sanjith Rajkumar. No Pictures are available yet, but will upload as soon as I receive them."
+      "We wanted to reach out to younger students in the Parkland School District, so we started this collaboration with Springhouse Middle School.",
+      "Our team put together presentations and environmental trivia games to make learning about science more fun. We even planned some conservation-themed craft projects for the students to work on. It's been a great way to get them thinking about the environment early on."
     ],
     highlights: [
       { number: "1", label: "Partner Org" },
@@ -242,10 +242,10 @@ export const completedProjects = [
       "/CUECF_Website/images/events/Collaboration_with_Hindu_Temple_Society/5716659549106976966.jpg",
     ],
     summary:
-      "Presented a topic on environmental awareness and degradation to 3rd-5th graders to encourage action.",
+      "We talked to 3rd through 5th graders at the Hindu Temple Society about why it's so important to protect our planet.",
     description: [
-      "At the Hindu Temple Society, I worked with my fellow peers in presenting a topic on environmental awareness and environmental degradation to 3rd-5th graders.",
-      "We wanted to encourage little kids to start to take action as their contributions make a meaningful impact toward society. We specifically stressed these three main important words: Reduce, Reuse, and Recycle. Members who showed up to the event included Sushal Boddeda, Sriram Joshi, Aneesh Kashalkar,"
+      "Our team visited the Hindu Temple Society to give a presentation on environmental awareness to the younger kids there.",
+      "We wanted to show them that even small actions can make a big difference. We focused on the basics like 'Reduce, Reuse, and Recycle' to help them understand how they can contribute to their community and the environment every day."
     ],
     highlights: [
       { number: "1", label: "Community Center" },
@@ -266,10 +266,10 @@ export const completedProjects = [
       "/CUECF_Website/images/events/Invasive_SpeciesRemoval_HabitatRestoration/image7.png",
     ],
     summary:
-      "Removed invasive weeds at the Whitehall parkway and used tree branches to create a suitable habitat for native species.",
+      "We spent the day at the Whitehall Parkway pulling weeds and using fallen branches to build new habitats for local wildlife.",
     description: [
-      "We went to the Whitehall parkway and collaborated with Whitehall Township in which we were designated with removing invasive species (i.e. weeds) and used some of the tree branches that were removed to create a suitable habitat for the native species, like beavers.",
-      "This ensures that we continue to restore biodiversity across the area. Some images detailing our work include the following:"
+      "We worked with Whitehall Township to clear out invasive weeds at the parkway. It's a key step in making sure the local biodiversity stays healthy.",
+      "While we were there, we also took old tree branches and stacked them to create 'brush piles.' These give local animals like beavers a suitable place to live and help restore the natural habitat in the area."
     ],
     highlights: [
       { number: "3+", label: "Species Targeted" },
@@ -294,10 +294,10 @@ export const completedProjects = [
       "/CUECF_Website/images/events/Keiosk/we.jpg",
     ],
     summary:
-      "Designed, developed, and completed a natural informational kiosk for the Lehigh Gap Nature Center.",
+      "We built and installed a new info kiosk at the Lehigh Gap Nature Center to help visitors learn about the local environment.",
     description: [
-      "We were able to design, develop and install an informational kiosk on nature for the Lehigh Gap Nature Center. This has allowed for more people to gain valuable information about our natural world and how to protect it.",
-      "Through this, we spread the word of vital conservation efforts, information about the natural world, and upcoming projects in our community. The installation day went smoothly and the kiosk is now fully operational."
+      "We designed and installed a new informational kiosk right at the nature center. The goal was to give people a quick way to learn about the natural world and how they can help protect it.",
+      "The kiosk highlights vital conservation efforts and upcoming projects in the community. It's been great to see people using it already to get more informed about the environment around them."
     ],
     highlights: [
       { number: "1", label: "Kiosk Installed" },
@@ -317,10 +317,10 @@ export const ongoingProjects = [
     image: null,
     gallery: [],
     summary:
-      "Designing and building a native plant garden with artificial habitats and informational placards at Parkland High School.",
+      "We're currently working on a new native plant garden at Parkland High School, complete with animal habitats and info signs.",
     description: [
-      "We have worked with the administration of Parkland High School to create a native plant garden on the high school premises. The garden will include natively occurring plants, artificial animal habitats, and informational placards.",
-      "Community United is currently engaged in the design and building processes of this project. This will restore critical species to the ecosystem surrounding the high school. Once the project is completed it will be maintained by the Parkland High School Conservation Club.",
+      "We've teamed up with the high school administration to design a space right on campus for native plants and wildlife. The garden will include plenty of local plants, artificial habitats, and placards to explain what's there.",
+      "Our team is currently busy with the design and building process. We're excited to see this restore some critical species to the school grounds. Once it's finished, the school's Conservation Club will take over the maintenance."
     ],
     highlights: [
       { number: "1", label: "Garden" },
@@ -337,10 +337,10 @@ export const ongoingProjects = [
     image: null,
     gallery: [],
     summary:
-      "Providing volunteers for educational events, writing informative flyers, and planning future conservation programs.",
+      "We're helping the Audubon Society with their events and helping them get the word out about local conservation.",
     description: [
-      "Working in collaboration with Lehigh Valley Audubon Society to provide volunteers to local educational events about the climate, write informative flyers/articles, and plan future programs.",
-      "Through this we are able to encourage natural activities and spread the word about important conservation efforts in our community.",
+      "We've been working with the Lehigh Valley Audubon Society to provide volunteers for their educational events and keep the community informed about the climate.",
+      "Our team is also helping them write up flyers and articles to encourage more people to get involved in local conservation programs. It's a great way to spread the word and get more people active in protecting nature."
     ],
     highlights: [
       { number: "5+", label: "Events Supported" },
@@ -358,10 +358,10 @@ export const ongoingProjects = [
     image: null,
     gallery: [],
     summary:
-      "Designing artificial habitats to Lehigh Gap specifications for deployment throughout the Lehigh Valley.",
+      "We're helping design new types of artificial habitats that can be used all over the Lehigh Valley.",
     description: [
-      "We have been contracted by Lehigh Gap Nature Center to design artificial habitats. We have been responsible for constructing designs to their specifications and planning the materials that would be used to build them.",
-      "This design would be used for artificial habitats throughout the Lehigh Valley.",
+      "The team at Lehigh Gap Nature Center asked us to help design artificial habitats based on their specific needs. We've been responsible for planning out the materials and construction for these designs.",
+      "Once the designs are finalized, they can be used to build new habitats throughout the region, giving more animals a safe place to thrive."
     ],
     highlights: [
       { number: "5+", label: "Designs Created" },

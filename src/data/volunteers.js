@@ -1,4 +1,5 @@
 export const volunteers = [
+  'Adam Vazquies',
   'Anthony Wang',
   'Aadit Kedia',
   'Shreemay Shah',

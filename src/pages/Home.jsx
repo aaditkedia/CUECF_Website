@@ -153,7 +153,7 @@ export default function Home() {
           <div className="cta-card">
             <div className="cta-content">
               <h2>Ready to Make a Difference?</h2>
-              <p>Join our community of volunteers and help build a sustainable future for everyone — humans, plants, and animals alike.</p>
+              <p>Join our community of volunteers and help build a sustainable future for everyone, including the local plants and wildlife.</p>
               <Link to="/contact-us" className="btn btn-primary" id="cta-join">Join Us Today →</Link>
             </div>
             <img src="/CUECF_Website/images/logos/logo-cuecf.png" alt="CUECF Logo" className="cta-mascot" />

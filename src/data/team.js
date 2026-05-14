@@ -42,13 +42,6 @@ export const teamMembers = [
     excerpt: 'Amplifying our mission through digital outreach and storytelling.'
   },
   {
-    id: 'jason-paz-romero',
-    name: 'Jason Paz-Romero',
-    role: 'Relations Director',
-    image: '/CUECF_Website/images/photo-vegetation-clearing.png',
-    excerpt: 'Building and maintaining partnerships with community organizations.'
-  },
-  {
     id: 'sriram-joshi',
     name: 'Sriram Joshi',
     role: 'Director of Technology',
@@ -88,9 +81,9 @@ export const teamMembers = [
 export const memberBios = {
   'aadit-kedia': {
     bio: [
-      'Aadit Kedia is the Co-Founder and Chairman of Community United: Environmental Conservation Foundation. A driven leader with a deep commitment to environmental stewardship, Aadit founded CUECF with the vision of uniting his community around actionable conservation efforts.',
-      'Under his leadership, CUECF has grown to engage over 8 active volunteers and 6 partner organizations, completing more than 11 projects across the Lehigh Valley region of Pennsylvania. From organizing large-scale e-recycling events to coordinating invasive plant removal at local nature preserves, Aadit has been instrumental in every initiative.',
-      'Aadit believes that meaningful change starts at the local level. His approach combines hands-on fieldwork with strategic partnerships, building lasting relationships with organizations like the Lehigh Gap Nature Center, Wildlands Conservancy, and the Lehigh County Conservation District.'
+      'Aadit co-founded CUECF because he wanted to see his community come together to take real action for the environment. As Chairman, he\'s been the driving force behind our growth, helping us connect with over 8 active volunteers and 6 partner organizations.',
+      'He\'s been hands-on in every project we\'ve taken on, whether it\'s organizing large e-recycling drives or getting out into the field to pull invasive plants. Under his leadership, we\'ve successfully completed more than 11 projects throughout the Lehigh Valley.',
+      'Aadit truly believes that meaningful change starts locally. He works hard to build lasting relationships with groups like the Lehigh Gap Nature Center and Wildlands Conservancy, making sure our work has a long-term impact.'
     ],
     email: 'aaditkedia1@gmail.com',
     location: 'Allentown, PA',
@@ -99,9 +92,9 @@ export const memberBios = {
   },
   'adam-vazquies': {
     bio: [
-      'Hi! My name is Adam Vazquies. Nature has been integral to my everyday life. Often when I get faced with a particularly challenging problem, obstacle, or just can\'t figure out a concept I take a walk in the park near my house. It was on one of these walks that CUECF formed.',
-      'I realized that there was a critical shortage of volunteers in our community, even with many high schoolers looking for volunteer opportunities. I partnered with two of my friends to try to resolve this critical issue.',
-      'Due to my experience in communication from FBLA and the Debate team, as well as my experience handling money from being the treasurer of my school\'s Political Science Club, I elected to coordinate the events and relations with other companies. As the event coordinator I have been able to spearhead a multitude of partnerships and projects, many of which you can learn about on this website!'
+      'Hi! My name is Adam Vazquies. Nature has always been a big part of my life. Whenever I\'m stuck on a tough problem or just need to clear my head, I take a walk in the park near my house. It was actually on one of those walks that the idea for CUECF was born.',
+      'I realized that even though a lot of high schoolers were looking for ways to give back, there was still a huge shortage of volunteers in our community. I teamed up with two of my friends to see if we could bridge that gap.',
+      'With my background in debate and communication, I took on the role of coordinating our events and building relationships with other organizations. It\'s been an amazing experience spearheading so many different projects, and you can see a lot of that work right here on our site!'
     ],
     email: 'vazquiesa@gmail.com',
     location: 'Allentown, PA',
@@ -110,9 +103,9 @@ export const memberBios = {
   },
   'anthony-wang': {
     bio: [
-      'Anthony Wang serves as Vice President and Treasurer of Community United: Environmental Conservation Foundation. He brings a unique combination of organizational skills and financial acumen to the team.',
-      'As Treasurer, Anthony manages the foundation\'s resources ensuring that every dollar is directed toward maximum environmental impact. His careful stewardship has enabled CUECF to scale its operations while maintaining fiscal responsibility.',
-      'Beyond the books, Anthony is a passionate volunteer who regularly participates in planting events, e-recycling drives, and community outreach programs. He believes that strong operational foundations are essential for any nonprofit to achieve lasting, meaningful change.'
+      'Anthony serves as our Vice President and Treasurer, keeping the organization running smoothly behind the scenes. He has a real talent for staying organized and making sure our resources are used where they\'ll do the most good.',
+      'As Treasurer, Anthony handles all the foundation\'s finances. His focus is on making sure every dollar we raise goes directly toward our environmental projects, allowing us to grow while staying responsible with our budget.',
+      'But Anthony isn\'t just about the numbers—you\'ll also find him out at almost every event, from tree plantings to recycling drives. He believes that a strong foundation is the only way to achieve real, lasting change in the community.'
     ],
     email: 'anthonywang1215@gmail.com',
     location: 'Allentown, PA',
@@ -121,9 +114,9 @@ export const memberBios = {
   },
   'aneesh-kashalkar': {
     bio: [
-      'Aneesh Kashalkar serves as Secretary of Community United: Environmental Conservation Foundation. He plays a vital role in maintaining clear communication and documentation across the organization.',
-      'Aneesh is responsible for keeping the team organized and ensuring that every project milestone is properly tracked and recorded. His attention to detail and commitment to transparency are essential to the foundation\'s smooth operation.',
-      'As a dedicated environmentalist, Aneesh brings both administrative expertise and a genuine love for the natural world to everything he does at CUECF.'
+      'Aneesh is our Secretary and the one who keeps our team on track. He handles all our documentation and makes sure communication is clear across the entire organization.',
+      'From tracking project milestones to keeping our records organized, Aneesh\'s attention to detail is what keeps CUECF running without a hitch. His work ensures that we stay transparent and efficient in everything we do.',
+      'Beyond the administrative work, Aneesh is a dedicated environmentalist who brings a genuine love for the natural world to every project he supports.'
     ],
     email: 'aneesh.kashalkar@gmail.com',
     location: 'Allentown, PA',
@@ -132,9 +125,9 @@ export const memberBios = {
   },
   'shreemay-shah': {
     bio: [
-      'Shreemay Shah is a Board Member of Community United: Environmental Conservation Foundation. He contributes strategic insight and a passion for environmental causes to the organization\'s direction.',
-      'Shreemay is actively involved in project planning and helps evaluate new conservation opportunities across the Lehigh Valley. His analytical approach ensures that CUECF\'s efforts are both impactful and sustainable.',
-      'He believes that youth engagement in environmental conservation is critical for building a sustainable future and works to bring that perspective to the board.'
+      'Shreemay is a Board Member who helps guide the strategic direction of CUECF. He brings a lot of insight and a real passion for environmental issues to our planning sessions.',
+      'He\'s heavily involved in evaluating new conservation opportunities and making sure our efforts in the Lehigh Valley are both impactful and sustainable for the long term.',
+      'Shreemay is a big believer in getting more young people involved in conservation work. He believes youth engagement is the key to building a truly sustainable future.'
     ],
     email: 'shreemay.shah@gmail.com',
     location: 'Allentown, PA',
@@ -143,31 +136,20 @@ export const memberBios = {
   },
   'sushal-boddeda': {
     bio: [
-      'Sushal Boddeda serves as Social Media Manager of Community United: Environmental Conservation Foundation. He is responsible for amplifying CUECF\'s mission through digital outreach and engaging storytelling.',
-      'Sushal manages the organization\'s online presence, creating compelling content that showcases conservation projects and drives community engagement. His creative approach to communication helps CUECF reach new audiences and inspire action.',
-      'He is passionate about using technology and digital platforms as tools for environmental advocacy and community building.'
+      'Sushal is our Social Media Manager, and he\'s the one responsible for sharing our story with the world. He uses digital outreach to highlight our work and get more people involved in our mission.',
+      'He manages our online presence, creating content that shows what we\'re actually doing out in the field. His goal is to inspire the community to take action through engaging storytelling.',
+      'Sushal loves finding new ways to use technology and social media as tools for environmental advocacy and community building.'
     ],
     email: 'communityunitedpa@gmail.com',
     location: 'Allentown, PA',
     joined: '2024',
     focus: 'Digital Outreach & Communications'
   },
-  'jason-paz-romero': {
-    bio: [
-      'Jason Paz-Romero is the Relations Director of Community United: Environmental Conservation Foundation. He is dedicated to building and maintaining strong partnerships with community organizations across the Lehigh Valley.',
-      'Jason works closely with partners like Whitehall Township, Wildlands Conservancy, and the Lehigh Gap Nature Center to coordinate joint conservation initiatives. His interpersonal skills and diplomatic approach have been key to expanding CUECF\'s network.',
-      'He believes that effective community relations are the backbone of successful conservation work and strives to create mutually beneficial partnerships.'
-    ],
-    email: 'communityunitedpa@gmail.com',
-    location: 'Allentown, PA',
-    joined: '2024',
-    focus: 'Community Relations & Partnerships'
-  },
   'sriram-joshi': {
     bio: [
-      'Sriram Joshi serves as Director of Technology of Community United: Environmental Conservation Foundation. He leverages technology to enhance the organization\'s conservation impact and operational efficiency.',
-      'Sriram oversees CUECF\'s digital infrastructure, from the website to data management systems. His technical expertise ensures that the organization can effectively communicate its mission and track project outcomes.',
-      'He is passionate about the intersection of technology and environmentalism, believing that innovative tools can significantly amplify conservation efforts.'
+      'Sriram is our Director of Technology, using his technical skills to help us work more efficiently and have a bigger impact on the environment.',
+      'He oversees all our digital infrastructure, from keeping this website running to managing our data systems. His work makes it easier for us to communicate our mission and track our progress on different projects.',
+      'Sriram is fascinated by how technology and environmentalism can work together, and he\'s always looking for innovative tools that can help our cause.'
     ],
     email: 'communityunitedpa@gmail.com',
     location: 'Allentown, PA',
@@ -176,9 +158,9 @@ export const memberBios = {
   },
   'hanchun-yang': {
     bio: [
-      'Hanchun Yang is a Board Member of Community United: Environmental Conservation Foundation. He brings dedication and fresh perspectives to the board\'s decision-making process.',
-      'Hanchun is actively involved in volunteer coordination and event planning, helping to ensure that CUECF\'s conservation projects run smoothly and effectively.',
-      'His commitment to environmental stewardship and community service makes him a valuable contributor to the foundation\'s ongoing mission.'
+      'Hanchun is a Board Member who brings a lot of dedication and a fresh perspective to our team\'s decision-making.',
+      'He\'s very active in helping plan our events and coordinating our volunteers, making sure every project we take on runs as smoothly as possible.',
+      'His commitment to the environment and his drive to serve the community make him a vital part of the foundation.'
     ],
     email: 'communityunitedpa@gmail.com',
     location: 'Allentown, PA',
@@ -187,9 +169,9 @@ export const memberBios = {
   },
   'vikram-alturu': {
     bio: [
-      'Vikram Alturu is a Board Member of Community United: Environmental Conservation Foundation. He supports the organization\'s conservation initiatives with strategic planning and active participation.',
-      'Vikram contributes to project evaluation and helps identify new opportunities for environmental impact across the Lehigh Valley region.',
-      'He is driven by a belief that local action can create global change and brings this conviction to his work with CUECF.'
+      'Vikram is a Board Member who helps us evaluate new projects and identify where we can have the most impact in the Lehigh Valley.',
+      'He\'s a key part of our strategic planning, always looking for new opportunities to support conservation initiatives in our region.',
+      'Vikram is driven by the idea that local action can lead to global change, and he brings that energy to everything he does with CUECF.'
     ],
     email: 'communityunitedpa@gmail.com',
     location: 'Allentown, PA',
@@ -198,9 +180,9 @@ export const memberBios = {
   },
   'haadi-matin': {
     bio: [
-      'Haadi Matin is a Board Member of Community United: Environmental Conservation Foundation. He advocates for environmental stewardship and works to expand the organization\'s community presence.',
-      'Haadi is involved in outreach efforts and helps represent CUECF at community events and partnership meetings. His enthusiasm for the environment is contagious and helps inspire new volunteers.',
-      'He is committed to making environmental conservation accessible and engaging for people of all backgrounds.'
+      'Haadi is a Board Member who focuses on outreach and helping CUECF build a stronger presence in the community.',
+      'You\'ll often find him representing us at community events and meetings with our partners. His enthusiasm for environmental work is contagious and has helped us bring in plenty of new volunteers.',
+      'He is committed to making conservation work feel accessible and interesting for everyone, regardless of their background.'
     ],
     email: 'communityunitedpa@gmail.com',
     location: 'Allentown, PA',
@@ -209,9 +191,9 @@ export const memberBios = {
   },
   'guhan-sureshkumar': {
     bio: [
-      'Guhan Sureshkumar is a Board Member of Community United: Environmental Conservation Foundation. He is committed to expanding the organization\'s conservation reach and impact across the region.',
-      'Guhan contributes to program development and helps design new initiatives that address emerging environmental challenges in the Lehigh Valley.',
-      'His forward-thinking approach and dedication to sustainability make him an asset to the foundation\'s leadership team.'
+      'Guhan is a Board Member who is dedicated to helping CUECF expand its reach and have a bigger impact across the entire region.',
+      'He plays a big role in developing our programs and designing new initiatives that tackle local environmental challenges.',
+      'Guhan\'s forward-thinking approach and his focus on sustainability are exactly what we need as we grow.'
     ],
     email: 'communityunitedpa@gmail.com',
     location: 'Allentown, PA',

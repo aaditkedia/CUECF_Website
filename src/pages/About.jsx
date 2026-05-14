@@ -42,9 +42,7 @@ export default function About() {
             <div className="about-text-col">
               <div className="about-text-spacing">
                 <p>
-                  As students, we have felt there has not been enough emphasis on supporting our surrounding
-                  ecosystem and helping our earth and community become a better place for all of us to live —
-                  humans, plants, and animals alike.
+                  As students, we felt there wasn't enough focus on supporting our local ecosystem. We wanted to help our community become a better place for everyone, from our neighbors to the local plants and wildlife.
                 </p>
                 <p>
                   Through this organization, we aim to help our world by getting fellow volunteers and members
