@@ -12,7 +12,6 @@ import Photos from './pages/Photos'
 import Contact from './pages/Contact'
 import PastBoardMembers from './pages/PastBoardMembers'
 import Volunteers from './pages/Volunteers'
-import Map3D from './pages/Map3D'
 
 export default function App() {
   return (
@@ -30,7 +29,6 @@ export default function App() {
         <Route path="/projects/:type/:projectId" element={<ProjectDetail />} />
         <Route path="/photos" element={<Photos />} />
         <Route path="/contact-us" element={<Contact />} />
-        <Route path="/3d-map" element={<Map3D />} />
       </Routes>
       <Footer />
     </Router>
