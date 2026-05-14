@@ -51,6 +51,7 @@ const playChime = () => {
 export default function Map3D() {
   const fgRef = useRef();
   const containerRef = useRef();
+  const focusedNodeRef = useRef(null); // Track node for orbital camera
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [isAudioEnabled, setIsAudioEnabled] = useState(false);
   const [hiddenGroups, setHiddenGroups] = useState(new Set());
@@ -70,11 +71,19 @@ export default function Map3D() {
         .replace(/Contacted:\s*/i, '')
         .replace(/ and its Conservation Club/i, '');
       
-      // Strip people's names (anything after the first comma usually)
       if (name.includes(',')) {
         name = name.split(',')[0];
       }
-      return name.trim();
+      name = name.trim();
+
+      // Deduplicate similar partner names
+      if (/Wildlands|Wildlife/i.test(name)) return "Wildlands Conservancy";
+      if (/Whitehall/i.test(name)) return "Whitehall Township";
+      if (/Lehigh County Conservation|LCCD/i.test(name)) return "Lehigh County Conservation District";
+      if (/Community United/i.test(name)) return "CUECF";
+      if (/Jay's Eagle/i.test(name)) return "Jay's Eagle Scout";
+
+      return name;
     };
 
     const wrapText = (str, maxLen = 22) => {
@@ -152,6 +161,36 @@ export default function Map3D() {
       return newSet;
     });
   };
+
+  // --- Orbital Animation ---
+  useEffect(() => {
+    let animationFrameId;
+
+    const tick = () => {
+      if (focusedNodeRef.current && fgRef.current && !is2DMode) {
+        const distance = 80;
+        const angle = Date.now() / 2000; // Speed of rotation
+        
+        // Ensure node has coordinates
+        if (focusedNodeRef.current.x !== undefined) {
+          fgRef.current.cameraPosition(
+            {
+              x: focusedNodeRef.current.x + distance * Math.cos(angle),
+              y: focusedNodeRef.current.y + 20,
+              z: focusedNodeRef.current.z + distance * Math.sin(angle),
+            },
+            focusedNodeRef.current, // Look at node
+            0 // Instant update per tick
+          );
+        }
+      }
+      animationFrameId = requestAnimationFrame(tick);
+    };
+
+    tick();
+
+    return () => cancelAnimationFrame(animationFrameId);
+  }, [is2DMode]);
 
   // --- Force Adjustments & Ambiance ---
   useEffect(() => {
@@ -239,12 +278,22 @@ export default function Map3D() {
     } else {
       // 3D Camera logic
       const distance = 80;
-      const distRatio = 1 + distance/Math.hypot(node.x || 1, node.y || 1, node.z || 1); // fallback against 0
+      const angle = Date.now() / 2000;
+      
       fgRef.current.cameraPosition(
-        { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio },
+        { 
+          x: node.x + distance * Math.cos(angle), 
+          y: node.y + 20, 
+          z: node.z + distance * Math.sin(angle) 
+        },
         node, // lookAt
         1500  // ms transition
       );
+
+      // Lock into orbit after transition finishes
+      setTimeout(() => {
+        focusedNodeRef.current = node;
+      }, 1500);
     }
   }, [is2DMode]);
 
@@ -252,6 +301,10 @@ export default function Map3D() {
     if (isAudioEnabled) playChime();
     flyToNode(node);
   }, [isAudioEnabled, flyToNode]);
+
+  const handleBackgroundClick = useCallback(() => {
+    focusedNodeRef.current = null; // Stop orbiting
+  }, []);
 
   const handleTeleportChange = (e) => {
     const partnerId = e.target.value;
@@ -265,6 +318,11 @@ export default function Map3D() {
     e.target.value = "";
   };
 
+  const handleModeToggle = () => {
+    setIs2DMode(!is2DMode);
+    focusedNodeRef.current = null; // Reset orbit when switching modes
+  };
+
   // Common Props for both Map Types
   const commonForceProps = {
     ref: fgRef,
@@ -272,10 +330,12 @@ export default function Map3D() {
     nodeVisibility: node => !hiddenGroups.has(node.group),
     linkVisibility: link => !hiddenGroups.has(link.source.group) && !hiddenGroups.has(link.target.group),
     backgroundColor: "#0a0a1a",
-    linkColor: () => 'rgba(255, 255, 255, 0.65)',
+    linkColor: () => 'rgba(255, 255, 255, 0.45)',
     linkWidth: 2,
-    linkDirectionalParticles: 0,
+    linkDirectionalParticles: 2, // Flowing energy particles
+    linkDirectionalParticleSpeed: 0.005,
     onNodeClick: handleNodeClick,
+    onBackgroundClick: handleBackgroundClick,
     d3AlphaDecay: 0.01,
     d3VelocityDecay: 0.1,
     cooldownTicks: 100
@@ -300,7 +360,7 @@ export default function Map3D() {
         {/* UI Overlay */}
         <div className="map-ui-overlay">
           <div className="map-controls">
-            <button className="map-btn map-btn-highlight" onClick={() => setIs2DMode(!is2DMode)}>
+            <button className="map-btn map-btn-highlight" onClick={handleModeToggle}>
               {is2DMode ? 'View 3D 🌐' : 'View 2D 🗺️'}
             </button>
             <button className="map-btn" onClick={toggleFullscreen}>
@@ -350,7 +410,7 @@ export default function Map3D() {
             {...commonForceProps}
             nodeCanvasObject={(node, ctx, globalScale) => {
               const isPartner = node.group === 'partner';
-              const radius = isPartner ? 12 : 6;
+              const radius = isPartner ? 14 : 7;
               const fontSize = isPartner ? 10 : 6;
               
               // Draw node orb
@@ -382,18 +442,23 @@ export default function Map3D() {
             nodeThreeObject={node => {
               const group = new THREE.Group();
 
-              const radius = node.group === 'partner' ? 12 : 6;
+              const radius = node.group === 'partner' ? 14 : 7;
               
               // Sphere Bubble
               const geometry = new THREE.SphereGeometry(radius, 32, 32);
-              const material = new THREE.MeshPhongMaterial({
+              
+              // New Physical Material for a beautiful glass effect
+              const material = new THREE.MeshPhysicalMaterial({
                 color: node.color,
-                emissive: node.color,
-                emissiveIntensity: 0.35,
-                shininess: 80,
+                transmission: 0.9,
+                opacity: 1,
+                metalness: 0.2,
+                roughness: 0.1,
+                ior: 1.5,
+                thickness: 0.5,
                 transparent: true,
-                opacity: 0.6, // Glass-like transparency
               });
+              
               const sphere = new THREE.Mesh(geometry, material);
               group.add(sphere);
 
